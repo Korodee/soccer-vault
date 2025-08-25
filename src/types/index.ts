@@ -13,6 +13,9 @@ export interface Product {
   brand: string;
   season?: string;
   material?: string;
+  club?: string;
+  league?: string;
+  tags?: string[];
 }
 
 export interface CartItem {

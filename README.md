@@ -12,6 +12,9 @@ A modern, full-stack e-commerce website for soccer jerseys built with Next.js 14
 - **Responsive Design**: Mobile-first approach with desktop optimization
 - **TypeScript**: Full type safety throughout the application
 - **Performance**: Optimized with Next.js 14 App Router
+- **Robust Scraping**: Enhanced Yupoo scraper with proper image downloading
+- **Cloudinary Integration**: Optional cloud image hosting for better performance
+- **Intelligent Enrichment**: Automatic product categorization and pricing
 
 ## 🛠️ Tech Stack
 
@@ -22,6 +25,9 @@ A modern, full-stack e-commerce website for soccer jerseys built with Next.js 14
 - **Payment**: Stripe
 - **State Management**: React Context API
 - **Utilities**: clsx, tailwind-merge
+- **Scraping**: Playwright, gallery-dl (Python fallback)
+- **Image Hosting**: Cloudinary (optional)
+- **Browser Automation**: Playwright
 
 ## 📁 Project Structure
 
@@ -54,13 +60,17 @@ soccer-vault/
 │   └── types/
 │       └── index.ts                       # TypeScript types
 ├── scripts/
-│   ├── scrape-yupoo-enhanced.js           # Yupoo scraper
-│   ├── merge-product-data.js              # Data merger
-│   ├── setup-yupoo-scraping.js            # Setup script
-│   └── test-scraper.js                    # Test script
+│   ├── enhanced-yupoo-scraper.js          # Enhanced Yupoo scraper
+│   ├── gallery-dl-fallback.py             # Python fallback scraper
+│   ├── enrich-products.js                 # Product enrichment pipeline
+│   ├── cloudinary-upload.js               # Cloudinary upload script
+│   └── test-scraping-system.js            # System testing script
+├── data/
+│   └── raw.json                           # Raw scraped data
 ├── public/
 │   └── images/                            # Product images
 ├── env.example                            # Environment variables template
+├── SCRAPING_GUIDE.md                      # Comprehensive scraping guide
 └── README.md
 ```
 
@@ -71,6 +81,7 @@ soccer-vault/
 - Node.js 18+ 
 - npm or yarn
 - Stripe account (for payments)
+- Optional: Cloudinary account (for image hosting)
 
 ### Installation
 
@@ -90,14 +101,26 @@ soccer-vault/
    cp env.example .env.local
    ```
    
-   Edit `.env.local` and add your Stripe keys:
+   Edit `.env.local` and add your configuration:
    ```env
+   # Stripe Configuration
    STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
    NEXT_PUBLIC_BASE_URL=http://localhost:3000
+   
+   # Optional: Cloudinary Configuration
+   CLOUDINARY_URL=cloudinary://your_cloud_name:your_api_key:your_api_secret@your_cloud_name
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
    ```
 
-4. **Run the development server**
+4. **Test the scraping system (optional)**
+   ```bash
+   npm run test:scraping
+   ```
+
+5. **Run the development server**
    ```bash
    npm run dev
    ```
@@ -124,27 +147,38 @@ soccer-vault/
 ### Using Sample Data
 The project includes sample product data in `src/data/products.ts` for immediate testing.
 
-### Scraping Real Data (Optional)
-To use real product images from Yupoo:
+### Enhanced Scraping System (Recommended)
 
-1. **Test the scraper**
-   ```bash
-   npm run scrape:test
-   ```
+The project includes a robust scraping system that solves Yupoo hotlinking issues:
 
-2. **Run the scraper**
-   ```bash
-   npm run scrape:yupoo
-   ```
+#### Quick Start
+```bash
+# Test the system
+npm run test:scraping
 
-3. **Edit the scraped data**
-   - Edit `data/yupoo-products.json`
-   - Add prices, sizes, descriptions
+# Complete pipeline (scrape + enrich)
+npm run scrape:complete
 
-4. **Merge the data**
-   ```bash
-   npm run scrape:merge
-   ```
+# With Cloudinary upload
+npm run scrape:with-cloudinary
+```
+
+#### Available Scripts
+- `npm run scrape` - Enhanced Playwright scraper
+- `npm run enrich` - Convert raw data to products
+- `npm run upload:cloudinary` - Upload images to Cloudinary
+- `npm run test:scraping` - Test all components
+
+#### Features
+- **Robust image downloading** with proper headers
+- **Rate limiting** and retry logic
+- **Intelligent enrichment** with club/league recognition
+- **Cloudinary integration** for reliable hosting
+- **Gallery-dl fallback** for Python users
+
+For detailed information, see [SCRAPING_GUIDE.md](./SCRAPING_GUIDE.md).
+
+
 
 ## 🔧 Configuration
 

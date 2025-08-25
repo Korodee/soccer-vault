@@ -35,10 +35,12 @@ function ProductsContent() {
   useEffect(() => {
     let filtered = products;
 
-    // Apply category filter
+    // Apply category/league filter
     if (filters.category !== "All") {
       filtered = filtered.filter(
-        (product) => product.category === filters.category
+        (product) => 
+          product.category === filters.category || 
+          product.league === filters.category
       );
     }
 
@@ -67,7 +69,9 @@ function ProductsContent() {
         (product) =>
           product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
           product.brand.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          product.category.toLowerCase().includes(searchTerm.toLowerCase())
+          product.category.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          (product.league && product.league.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (product.club && product.club.toLowerCase().includes(searchTerm.toLowerCase()))
       );
     }
 

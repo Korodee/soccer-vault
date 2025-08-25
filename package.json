@@ -7,15 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scrape:setup": "node scripts/setup-yupoo-scraping.js",
-    "scrape:yupoo": "node scripts/scrape-yupoo-enhanced.js",
-
-    "scrape:merge": "node scripts/merge-product-data.js",
-    "scrape:all": "npm run scrape:yupoo && npm run scrape:merge",
-    "scrape:test": "node scripts/test-scraper.js"
+    "scrape": "node scripts/enhanced-yupoo-scraper.js",
+    "enrich": "node scripts/enrich-products.js",
+    "upload:cloudinary": "node scripts/cloudinary-upload.js",
+    "test:scraping": "node scripts/test-scraping-system.js",
+    "scrape:complete": "npm run scrape && npm run enrich",
+    "scrape:with-cloudinary": "npm run scrape && npm run upload:cloudinary && npm run enrich",
+    "setup:production": "node scripts/production-setup.js"
   },
   "dependencies": {
     "@stripe/stripe-js": "^7.8.0",
+    "cloudinary": "^2.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.541.0",
     "next": "15.5.0",

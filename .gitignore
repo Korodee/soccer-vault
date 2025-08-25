@@ -46,7 +46,16 @@ next-env.d.ts
 
 # scraped data (optional - remove if you want to commit)
 /data/yupoo-products.json
+/data/raw.json
 /public/images/
+
+# logs
+*.log
+logs/
+
+# temporary files
+*.tmp
+*.temp
 
 # IDE
 .vscode/

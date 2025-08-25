@@ -1,5 +1,5 @@
 // Auto-generated product data
-// Generated on: 2025-08-25T10:54:21.401Z
+// Generated on: 2025-08-25T14:25:37.844Z
 // Source: raw.json from Yupoo scraper
 
 export interface Product {
@@ -525,7 +525,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 81,
+    "price": 78,
     "sizes": [
       "S",
       "M",
@@ -534,19 +534,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115960/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115962/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115964/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115966/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115967/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115969/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115971/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115972/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115973/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115975/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756115976/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Premium FC Barcelona Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "description": "Official FC Barcelona Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
     "tags": [
       "FC Barcelona",
       "La Liga",
@@ -556,7 +550,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Nike",
     "material": "100% Recycled Polyester"
@@ -611,7 +605,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Away",
     "season": "2025/2026",
-    "price": 86,
+    "price": 93,
     "sizes": [
       "S",
       "M",
@@ -624,15 +618,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116009/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116011/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116013/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116015/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116017/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116018/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116019/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116021/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116023/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116024/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116015/soccer-vault/2526-psg-2nd-away-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Paris Saint-Germain Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "description": "Official Paris Saint-Germain Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
       "Paris Saint-Germain",
       "Other",
@@ -653,7 +641,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Away",
     "season": "2025/2026",
-    "price": 87,
+    "price": 78,
     "sizes": [
       "S",
       "M",
@@ -662,19 +650,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116027/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116029/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116032/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116034/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116037/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116039/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116040/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116041/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116043/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116044/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116045/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130342/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130344/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130346/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130348/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130350/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official FC Barcelona Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "description": "Official FC Barcelona Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
       "FC Barcelona",
       "La Liga",
@@ -683,7 +665,7 @@ export const products: Product[] = [
       "Nike",
       "2025 Season"
     ],
-    "isNew": false,
+    "isNew": true,
     "isOnSale": false,
     "inStock": true,
     "brand": "Nike",
@@ -696,7 +678,7 @@ export const products: Product[] = [
     "league": "Bundesliga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 81,
+    "price": 77,
     "sizes": [
       "S",
       "M",
@@ -709,15 +691,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116050/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116052/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116054/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116055/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116057/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116059/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116060/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116061/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116063/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116066/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116055/soccer-vault/2526-leipzig-red-bull-home-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Premium Leipzig Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "description": "Official Leipzig Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
     "tags": [
       "Leipzig",
       "Bundesliga",
@@ -738,7 +714,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 79,
+    "price": 84,
     "sizes": [
       "S",
       "M",
@@ -747,20 +723,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116071/soccer-vault/2526-usa-home-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116073/soccer-vault/2526-usa-home-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116074/soccer-vault/2526-usa-home-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116076/soccer-vault/2526-usa-home-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116078/soccer-vault/2526-usa-home-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116079/soccer-vault/2526-usa-home-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116081/soccer-vault/2526-usa-home-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116083/soccer-vault/2526-usa-home-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116084/soccer-vault/2526-usa-home-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116086/soccer-vault/2526-usa-home-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116087/soccer-vault/2526-usa-home-player-edition-s-xxl/image11.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116088/soccer-vault/2526-usa-home-player-edition-s-xxl/image12.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130363/soccer-vault/2526-usa-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130365/soccer-vault/2526-usa-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130366/soccer-vault/2526-usa-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130368/soccer-vault/2526-usa-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130370/soccer-vault/2526-usa-home-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
     "tags": [
       "Unknown Club",
       "Other",
@@ -781,7 +750,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 84,
+    "price": 82,
     "sizes": [
       "S",
       "M",
@@ -794,13 +763,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116095/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116097/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116099/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116100/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116101/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116103/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116104/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116107/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116100/soccer-vault/2526-marseille-special-edition-red-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Olympique de Marseille Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "description": "Official Olympique de Marseille Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
     "tags": [
       "Olympique de Marseille",
       "Other",
@@ -821,7 +786,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 80,
+    "price": 85,
     "sizes": [
       "S",
       "M",
@@ -834,11 +799,7 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116113/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116114/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116116/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116118/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116119/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116122/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116127/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116129/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116118/soccer-vault/2526-marseille-special-edition-grey-player-edition-s-xxl/image5.jpg"
     ],
     "description": "Official Olympique de Marseille Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
     "tags": [
@@ -849,7 +810,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -861,7 +822,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 91,
+    "price": 78,
     "sizes": [
       "S",
       "M",
@@ -874,13 +835,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116135/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116137/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116143/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116147/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116149/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116152/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116153/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116155/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116147/soccer-vault/2526-marseille-special-edition-pink-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Premium Olympique de Marseille Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "description": "Official Olympique de Marseille Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
     "tags": [
       "Olympique de Marseille",
       "Other",
@@ -901,7 +858,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 75,
+    "price": 79,
     "sizes": [
       "S",
       "M",
@@ -914,11 +871,7 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116160/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116163/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116165/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116166/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116168/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116169/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116170/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116172/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116166/soccer-vault/2526-marseille-special-edition-upper-blue-player-edition-s-xxl/image5.jpg"
     ],
     "description": "Authentic Olympique de Marseille Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
     "tags": [
@@ -928,7 +881,7 @@ export const products: Product[] = [
       "2025/2026",
       "2025 Season"
     ],
-    "isNew": false,
+    "isNew": true,
     "isOnSale": true,
     "inStock": true,
     "brand": "Adidas",
@@ -1357,7 +1310,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 93,
+    "price": 91,
     "sizes": [
       "S",
       "M",
@@ -1370,11 +1323,7 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116394/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116395/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116397/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116399/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116400/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116401/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116403/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116404/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116399/soccer-vault/2526-real-madrid-special-edition-black-player-edition-s-xxl/image5.jpg"
     ],
     "description": "Official Real Madrid Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
@@ -1398,7 +1347,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 97,
+    "price": 109,
     "sizes": [
       "S",
       "M",
@@ -1407,19 +1356,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116406/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116408/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116410/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116412/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116413/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116415/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116416/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116417/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116419/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116420/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116422/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130435/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130438/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130441/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130443/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130445/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Real Madrid Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "description": "Premium Real Madrid Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
     "tags": [
       "Real Madrid",
       "La Liga",
@@ -1428,7 +1371,7 @@ export const products: Product[] = [
       "Adidas",
       "2025 Season"
     ],
-    "isNew": false,
+    "isNew": true,
     "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
@@ -1441,7 +1384,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 108,
+    "price": 90,
     "sizes": [
       "S",
       "M",
@@ -1450,17 +1393,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116425/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116426/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116428/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116430/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116433/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116434/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116436/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116437/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116438/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130447/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130449/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130452/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130456/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130458/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Real Madrid Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "description": "Official Real Madrid Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
     "tags": [
       "Real Madrid",
       "La Liga",
@@ -1470,7 +1409,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": false,
+    "isOnSale": true,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1482,7 +1421,7 @@ export const products: Product[] = [
     "league": "La Liga",
     "category": "Home",
     "season": "2025/2026",
-    "price": 98,
+    "price": 96,
     "sizes": [
       "S",
       "M",
@@ -1495,13 +1434,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116444/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116445/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116447/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116449/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116450/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116452/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116454/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116455/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image9.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116449/soccer-vault/2526-real-madrid-special-edition-black-gold-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Authentic Real Madrid Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "description": "Premium Real Madrid Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
     "tags": [
       "Real Madrid",
       "La Liga",
@@ -1510,7 +1445,7 @@ export const products: Product[] = [
       "Adidas",
       "2025 Season"
     ],
-    "isNew": false,
+    "isNew": true,
     "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
@@ -1523,7 +1458,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Away",
     "season": "2025/2026",
-    "price": 84,
+    "price": 83,
     "sizes": [
       "S",
       "M",
@@ -1532,17 +1467,11 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116459/soccer-vault/2526-celtic-away-player-edition-s-xxl/image1.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116461/soccer-vault/2526-celtic-away-player-edition-s-xxl/image2.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116463/soccer-vault/2526-celtic-away-player-edition-s-xxl/image3.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116464/soccer-vault/2526-celtic-away-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116466/soccer-vault/2526-celtic-away-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116468/soccer-vault/2526-celtic-away-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116469/soccer-vault/2526-celtic-away-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116471/soccer-vault/2526-celtic-away-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116472/soccer-vault/2526-celtic-away-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116474/soccer-vault/2526-celtic-away-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116475/soccer-vault/2526-celtic-away-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130473/soccer-vault/2526-celtic-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130475/soccer-vault/2526-celtic-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130481/soccer-vault/2526-celtic-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130484/soccer-vault/2526-celtic-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130486/soccer-vault/2526-celtic-away-player-edition-s-xxl/image5.jpg"
     ],
     "description": "Official Unknown Club Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
     "tags": [
@@ -1552,8 +1481,8 @@ export const products: Product[] = [
       "2025/2026",
       "2025 Season"
     ],
-    "isNew": false,
-    "isOnSale": false,
+    "isNew": true,
+    "isOnSale": true,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1565,7 +1494,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 86,
+    "price": 84,
     "sizes": [
       "S",
       "M",
@@ -1578,15 +1507,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116480/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116483/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116484/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116486/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116487/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116488/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116490/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116491/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116494/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116495/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116486/soccer-vault/2526-leverkusen-home-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Leverkusen Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "description": "Official Leverkusen Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
       "Leverkusen",
       "Other",
@@ -1595,7 +1518,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": false,
+    "isOnSale": true,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1607,7 +1530,7 @@ export const products: Product[] = [
     "league": "Premier League",
     "category": "Away",
     "season": "2025/2026",
-    "price": 85,
+    "price": 82,
     "sizes": [
       "S",
       "M",
@@ -1620,15 +1543,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116499/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116501/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116503/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116506/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116508/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116511/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116512/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116514/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116515/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116516/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116506/soccer-vault/2526-arsenal-away-long-sleeved-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Premium Arsenal Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "description": "Authentic Arsenal Away shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
     "tags": [
       "Arsenal",
       "Premier League",
@@ -1650,7 +1567,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 91,
+    "price": 86,
     "sizes": [
       "S",
       "M",
@@ -1659,20 +1576,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116519/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130531/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image1.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116520/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116522/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116523/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116525/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116526/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116528/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116530/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116532/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116534/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116535/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image11.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116536/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image12.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116525/soccer-vault/2526-psg-special-edition-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Authentic Paris Saint-Germain Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "description": "Official Paris Saint-Germain Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
     "tags": [
       "Paris Saint-Germain",
       "Other",
@@ -1681,7 +1591,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1693,7 +1603,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 94,
+    "price": 82,
     "sizes": [
       "S",
       "M",
@@ -1702,19 +1612,13 @@ export const products: Product[] = [
       "XXL"
     ],
     "images": [
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116538/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130545/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image1.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116540/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116541/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116543/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116545/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116547/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116548/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116549/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116551/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116554/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116555/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116545/soccer-vault/2526-psg-special-edition-purple-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Authentic Paris Saint-Germain Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "description": "Premium Paris Saint-Germain Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
     "tags": [
       "Paris Saint-Germain",
       "Other",
@@ -1723,7 +1627,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1735,7 +1639,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Away",
     "season": "2025/2026",
-    "price": 79,
+    "price": 82,
     "sizes": [
       "S",
       "M",
@@ -1748,15 +1652,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116560/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116563/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116565/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116567/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116570/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116571/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116573/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116574/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116576/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116577/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116567/soccer-vault/2526-amrica-away-long-sleeve-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Official Unknown Club Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "description": "Premium Unknown Club Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
     "tags": [
       "Unknown Club",
       "Other",
@@ -1777,7 +1675,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 87,
+    "price": 80,
     "sizes": [
       "S",
       "M",
@@ -1790,13 +1688,7 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116583/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116586/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116588/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116590/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116591/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116593/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116595/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116596/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116597/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116599/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116590/soccer-vault/2526-amrica-home-long-sleeve-player-edition-s-xxl/image5.jpg"
     ],
     "description": "Premium Unknown Club Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
     "tags": [
@@ -1819,7 +1711,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 89,
+    "price": 75,
     "sizes": [
       "S",
       "M",
@@ -1832,15 +1724,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116603/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116604/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116606/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116609/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116611/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116612/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116614/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116615/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116616/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116618/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116609/soccer-vault/2526-santos-black-advertising-edition-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
       "Unknown Club",
       "Other",
@@ -1849,7 +1735,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1861,7 +1747,7 @@ export const products: Product[] = [
     "league": "Other",
     "category": "Home",
     "season": "2025/2026",
-    "price": 78,
+    "price": 92,
     "sizes": [
       "S",
       "M",
@@ -1874,15 +1760,9 @@ export const products: Product[] = [
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116623/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image2.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116624/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image3.jpg",
       "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116626/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image4.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116629/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image5.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116631/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image6.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116633/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image7.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116636/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image8.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116638/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image9.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116640/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image10.jpg",
-      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116641/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image11.jpg"
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756116629/soccer-vault/2526-al-ahly-home-player-edition-s-xxl/image5.jpg"
     ],
-    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
     "tags": [
       "Unknown Club",
       "Other",
@@ -1891,7 +1771,7 @@ export const products: Product[] = [
       "2025 Season"
     ],
     "isNew": false,
-    "isOnSale": true,
+    "isOnSale": false,
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
@@ -1944,7 +1824,7 @@ export const products: Product[] = [
     "id": "retro-201213-psg-home-s-xxl",
     "title": "Retro 2012/13 Psg Home S-xxl",
     "club": "Paris Saint-Germain",
-    "league": "Other",
+    "league": "Ligue 1",
     "category": "Home",
     "season": "2012/13",
     "price": 86,
@@ -1972,7 +1852,7 @@ export const products: Product[] = [
     "description": "Authentic Paris Saint-Germain Home shirt featuring the latest 2012/13 design. Made with high-quality materials for comfort and durability.",
     "tags": [
       "Paris Saint-Germain",
-      "Other",
+      "Ligue 1",
       "Home",
       "2012/13",
       "2012 Season"
@@ -5072,35 +4952,3497 @@ export const products: Product[] = [
     "inStock": true,
     "brand": "Adidas",
     "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-2",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 78,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-ahly-away-player-edition-s-xxl",
+    "title": "25/26 Al Ahly Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130604/soccer-vault/2526-al-ahly-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130608/soccer-vault/2526-al-ahly-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130609/soccer-vault/2526-al-ahly-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130611/soccer-vault/2526-al-ahly-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130614/soccer-vault/2526-al-ahly-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Manchester United  Second Away Long Sleeved Player Edition S-xxl",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 98,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130617/soccer-vault/2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130619/soccer-vault/2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130621/soccer-vault/2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130623/soccer-vault/2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130625/soccer-vault/2526-manchester-united-second-away-long-sleeved-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Manchester United Away jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Manchester United",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-city-away-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Manchester City Away Long Sleeved Player Edition S-xxl",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130628/soccer-vault/2526-manchester-city-away-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130630/soccer-vault/2526-manchester-city-away-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130632/soccer-vault/2526-manchester-city-away-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130634/soccer-vault/2526-manchester-city-away-long-sleeved-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130636/soccer-vault/2526-manchester-city-away-long-sleeved-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Manchester City Away shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Manchester City",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-away-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Barcelona Away Long Sleeved Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 86,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130638/soccer-vault/2526-barcelona-away-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130640/soccer-vault/2526-barcelona-away-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130641/soccer-vault/2526-barcelona-away-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130643/soccer-vault/2526-barcelona-away-long-sleeved-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130645/soccer-vault/2526-barcelona-away-long-sleeved-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl",
+    "title": "25/26 Tottenham Hotspur Home Long Sleeve Player Edition S-xxl",
+    "club": "Tottenham Hotspur",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 90,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130647/soccer-vault/2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130649/soccer-vault/2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130651/soccer-vault/2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130653/soccer-vault/2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130659/soccer-vault/2526-tottenham-hotspur-home-long-sleeve-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Tottenham Hotspur Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Tottenham Hotspur",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Real Madrid  Second Away Long Sleeved Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 101,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130664/soccer-vault/2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130666/soccer-vault/2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130669/soccer-vault/2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130671/soccer-vault/2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130672/soccer-vault/2526-real-madrid-second-away-long-sleeved-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Real Madrid Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-celtic-away-player-edition-s-xxl-30",
+    "title": "25/26 Celtic Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 78,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130473/soccer-vault/2526-celtic-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130475/soccer-vault/2526-celtic-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130481/soccer-vault/2526-celtic-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130484/soccer-vault/2526-celtic-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130486/soccer-vault/2526-celtic-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-cruz-azul-home-player-edition-s-xxl",
+    "title": "25/26 Cruz Azul Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 75,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130692/soccer-vault/2526-cruz-azul-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130693/soccer-vault/2526-cruz-azul-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130695/soccer-vault/2526-cruz-azul-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130696/soccer-vault/2526-cruz-azul-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130698/soccer-vault/2526-cruz-azul-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-brazil-special-edition-player-edition-s-xxl",
+    "title": "25/26 Brazil Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 86,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130700/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130701/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130703/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image3.jpg"
+    ],
+    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-mexico-special-edition-player-edition-s-xxl",
+    "title": "25/26 Mexico Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 85,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130705/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130708/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130709/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130711/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130712/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-mexico-special-edition-player-edition-s-xxl-34",
+    "title": "25/26 Mexico Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 78,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130705/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130708/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130709/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130711/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130712/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-special-edition-player-edition-s-xxl",
+    "title": "25/26 Real Madrid Special Edition  Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 96,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130723/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130725/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130726/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130728/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130730/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-arsenal-home-player-edition-shorts-s-3xl",
+    "title": "25/26 Arsenal Home Player Edition Shorts S-3xl",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 88,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130732/soccer-vault/2526-arsenal-home-player-edition-shorts-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130734/soccer-vault/2526-arsenal-home-player-edition-shorts-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130736/soccer-vault/2526-arsenal-home-player-edition-shorts-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130737/soccer-vault/2526-arsenal-home-player-edition-shorts-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130739/soccer-vault/2526-arsenal-home-player-edition-shorts-s-3xl/image5.jpg"
+    ],
+    "description": "Authentic Arsenal Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Arsenal",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "retro-201415-real-madrid-home-player-edition-shorts-s-3xl",
+    "title": "Retro 2014/15 Real Madrid Home Player Edition Shorts S-3xl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2014/15",
+    "price": 102,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130743/soccer-vault/retro-201415-real-madrid-home-player-edition-shorts-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130746/soccer-vault/retro-201415-real-madrid-home-player-edition-shorts-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130747/soccer-vault/retro-201415-real-madrid-home-player-edition-shorts-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130749/soccer-vault/retro-201415-real-madrid-home-player-edition-shorts-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130751/soccer-vault/retro-201415-real-madrid-home-player-edition-shorts-s-3xl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Home jersey for the 2014/15 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2014/15",
+      "Adidas",
+      "2014 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-united-home-long-sleeve-player-edition-s-3xl",
+    "title": "25/26 Manchester United Home Long Sleeve Player Edition S-3xl",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 93,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130752/soccer-vault/2526-manchester-united-home-long-sleeve-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130755/soccer-vault/2526-manchester-united-home-long-sleeve-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130756/soccer-vault/2526-manchester-united-home-long-sleeve-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130758/soccer-vault/2526-manchester-united-home-long-sleeve-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130759/soccer-vault/2526-manchester-united-home-long-sleeve-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Premium Manchester United Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Manchester United",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl",
+    "title": "25/26 Real Madrid Second Away Long Sleeve Player Edition S-3xl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 108,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130762/soccer-vault/2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130764/soccer-vault/2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130765/soccer-vault/2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130767/soccer-vault/2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130769/soccer-vault/2526-real-madrid-second-away-long-sleeve-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-second-away-player-edition-s-3xl",
+    "title": "25/26 Real Madrid Second Away Player Edition S-3xl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 100,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130771/soccer-vault/2526-real-madrid-second-away-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130772/soccer-vault/2526-real-madrid-second-away-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130774/soccer-vault/2526-real-madrid-second-away-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130775/soccer-vault/2526-real-madrid-second-away-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130777/soccer-vault/2526-real-madrid-second-away-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-city-away-white-co-branded-player-edition-s-3xl",
+    "title": "25/26 Manchester City Away White Co Branded Player Edition S-3xl",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 81,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130779/soccer-vault/2526-manchester-city-away-white-co-branded-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130781/soccer-vault/2526-manchester-city-away-white-co-branded-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130782/soccer-vault/2526-manchester-city-away-white-co-branded-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130786/soccer-vault/2526-manchester-city-away-white-co-branded-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130789/soccer-vault/2526-manchester-city-away-white-co-branded-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Official Manchester City Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Manchester City",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-club-cup-edition-dortmund-home-player-edition-s-xxl",
+    "title": "25/26 Club Cup Edition Dortmund Home Player Edition S-xxl",
+    "club": "Dortmund",
+    "league": "Bundesliga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 81,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130792/soccer-vault/2526-club-cup-edition-dortmund-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130795/soccer-vault/2526-club-cup-edition-dortmund-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130797/soccer-vault/2526-club-cup-edition-dortmund-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130799/soccer-vault/2526-club-cup-edition-dortmund-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130801/soccer-vault/2526-club-cup-edition-dortmund-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Dortmund Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Dortmund",
+      "Bundesliga",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-nassr-fc-home-player-edition-s-xxl",
+    "title": "25/26 Al-nassr Fc Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 82,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130803/soccer-vault/2526-al-nassr-fc-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130805/soccer-vault/2526-al-nassr-fc-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130807/soccer-vault/2526-al-nassr-fc-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130808/soccer-vault/2526-al-nassr-fc-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130810/soccer-vault/2526-al-nassr-fc-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-brighton-away-player-edition-s-xxl",
+    "title": "25/26 Brighton Away Player Edition S-xxl",
+    "club": "Brighton & Hove Albion",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 87,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130812/soccer-vault/2526-brighton-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130815/soccer-vault/2526-brighton-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130817/soccer-vault/2526-brighton-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130818/soccer-vault/2526-brighton-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130820/soccer-vault/2526-brighton-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Brighton & Hove Albion Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Brighton & Hove Albion",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-newcastle-second-away-player-edition-s-xxl",
+    "title": "25/26 Newcastle Second Away Player Edition S-xxl",
+    "club": "Newcastle United",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 85,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130824/soccer-vault/2526-newcastle-second-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130826/soccer-vault/2526-newcastle-second-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130827/soccer-vault/2526-newcastle-second-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130829/soccer-vault/2526-newcastle-second-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130831/soccer-vault/2526-newcastle-second-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Newcastle United Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Newcastle United",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-hilal-home-player-edition-s-xxl",
+    "title": "25/26 Al-hilal Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 91,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130834/soccer-vault/2526-al-hilal-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130836/soccer-vault/2526-al-hilal-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130837/soccer-vault/2526-al-hilal-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130839/soccer-vault/2526-al-hilal-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130841/soccer-vault/2526-al-hilal-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-special-edition-white-player-edition-s-xxl-47",
+    "title": "25/26 Real Madrid Special Edition White Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130447/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130449/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130452/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130456/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130458/soccer-vault/2526-real-madrid-special-edition-white-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-norway-home-player-edition-s-xxl",
+    "title": "25/26 Norway Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130852/soccer-vault/2526-norway-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130853/soccer-vault/2526-norway-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130855/soccer-vault/2526-norway-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130857/soccer-vault/2526-norway-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130859/soccer-vault/2526-norway-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-sporting-lisbon-away-player-edition-s-xxl",
+    "title": "25/26 Sporting Lisbon Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130862/soccer-vault/2526-sporting-lisbon-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130865/soccer-vault/2526-sporting-lisbon-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130866/soccer-vault/2526-sporting-lisbon-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130868/soccer-vault/2526-sporting-lisbon-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130871/soccer-vault/2526-sporting-lisbon-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-porto-2-away-player-edition-s-xxl",
+    "title": "25/26 Porto 2 Away Player Edition S-xxl",
+    "club": "FC Porto",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130908/soccer-vault/2526-porto-2-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130910/soccer-vault/2526-porto-2-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130911/soccer-vault/2526-porto-2-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130912/soccer-vault/2526-porto-2-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130914/soccer-vault/2526-porto-2-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium FC Porto Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "FC Porto",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-2nd-away-player-edition-s-xxl-51",
+    "title": "25/26 Barcelona 2nd Away Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 85,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130342/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130344/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130346/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130348/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130350/soccer-vault/2526-barcelona-2nd-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic FC Barcelona Away shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-aston-villa-2nd-away-player-edition-s-xxl",
+    "title": "25/26 Aston Villa 2nd Away Player Edition S-xxl",
+    "club": "Aston Villa",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130932/soccer-vault/2526-aston-villa-2nd-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130935/soccer-vault/2526-aston-villa-2nd-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130937/soccer-vault/2526-aston-villa-2nd-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130939/soccer-vault/2526-aston-villa-2nd-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130941/soccer-vault/2526-aston-villa-2nd-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Aston Villa Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Aston Villa",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-black-player-edition-s-xxl",
+    "title": "25/26 Barcelona Special Edition Black Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 93,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130944/soccer-vault/2526-barcelona-special-edition-black-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130948/soccer-vault/2526-barcelona-special-edition-black-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130950/soccer-vault/2526-barcelona-special-edition-black-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130951/soccer-vault/2526-barcelona-special-edition-black-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130953/soccer-vault/2526-barcelona-special-edition-black-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-white-player-edition-s-xxl",
+    "title": "25/26 Barcelona Special Edition White Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 85,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130956/soccer-vault/2526-barcelona-special-edition-white-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130957/soccer-vault/2526-barcelona-special-edition-white-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130959/soccer-vault/2526-barcelona-special-edition-white-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130961/soccer-vault/2526-barcelona-special-edition-white-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130963/soccer-vault/2526-barcelona-special-edition-white-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-ittihad-home-player-edition-s-xxl",
+    "title": "25/26 Al-ittihad Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 87,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130966/soccer-vault/2526-al-ittihad-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130971/soccer-vault/2526-al-ittihad-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130982/soccer-vault/2526-al-ittihad-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130984/soccer-vault/2526-al-ittihad-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130985/soccer-vault/2526-al-ittihad-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-psg-champion-edition-player-edition-s-xxl",
+    "title": "25/26 Psg Champion Edition Player Edition S-xxl",
+    "club": "Paris Saint-Germain",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 90,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130987/soccer-vault/2526-psg-champion-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130989/soccer-vault/2526-psg-champion-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130993/soccer-vault/2526-psg-champion-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130995/soccer-vault/2526-psg-champion-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130997/soccer-vault/2526-psg-champion-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Paris Saint-Germain Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Paris Saint-Germain",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-santos-special-edition-black-player-edition-s-xxl",
+    "title": "25/26 Santos Special Edition Black Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131000/soccer-vault/2526-santos-special-edition-black-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131001/soccer-vault/2526-santos-special-edition-black-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131003/soccer-vault/2526-santos-special-edition-black-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131004/soccer-vault/2526-santos-special-edition-black-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131006/soccer-vault/2526-santos-special-edition-black-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-santos-special-edition-white-player-edition-s-xxl",
+    "title": "25/26 Santos Special Edition White Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131008/soccer-vault/2526-santos-special-edition-white-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131010/soccer-vault/2526-santos-special-edition-white-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131011/soccer-vault/2526-santos-special-edition-white-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131013/soccer-vault/2526-santos-special-edition-white-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131014/soccer-vault/2526-santos-special-edition-white-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-marseille-training-suit-player-edition-s-xxl",
+    "title": "25/26 Marseille Training Suit Player Edition S-xxl",
+    "club": "Olympique de Marseille",
+    "league": "Other",
+    "category": "Training",
+    "season": "2025/2026",
+    "price": 58,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131017/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131019/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131021/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131022/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131024/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Olympique de Marseille Training jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Olympique de Marseille",
+      "Other",
+      "Training",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-marseille-training-suit-player-edition-s-xxl-60",
+    "title": "25/26 Marseille Training Suit Player Edition S-xxl",
+    "club": "Olympique de Marseille",
+    "league": "Other",
+    "category": "Training",
+    "season": "2025/2026",
+    "price": 65,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131017/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131019/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131021/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131022/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131024/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Olympique de Marseille Training uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Olympique de Marseille",
+      "Other",
+      "Training",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-marseille-training-suit-player-edition-s-xxl-61",
+    "title": "25/26 Marseille Training Suit Player Edition S-xxl",
+    "club": "Olympique de Marseille",
+    "league": "Other",
+    "category": "Training",
+    "season": "2025/2026",
+    "price": 64,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131017/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131019/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131021/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131022/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131024/soccer-vault/2526-marseille-training-suit-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Olympique de Marseille Training shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Olympique de Marseille",
+      "Other",
+      "Training",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-usa-home-player-edition-s-xxl-62",
+    "title": "25/26 Usa Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 91,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130363/soccer-vault/2526-usa-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130365/soccer-vault/2526-usa-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130366/soccer-vault/2526-usa-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130368/soccer-vault/2526-usa-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130370/soccer-vault/2526-usa-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-olympique-lyonnais-away-player-edition-s-xxl",
+    "title": "25/26 Olympique Lyonnais Away Player Edition S-xxl",
+    "club": "Olympique Lyonnais",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 87,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131052/soccer-vault/2526-olympique-lyonnais-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131054/soccer-vault/2526-olympique-lyonnais-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131055/soccer-vault/2526-olympique-lyonnais-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131057/soccer-vault/2526-olympique-lyonnais-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131058/soccer-vault/2526-olympique-lyonnais-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Olympique Lyonnais Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Olympique Lyonnais",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Ac Milan Goalkeeper Long Sleeved Player Edition S-xxl",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "category": "GK",
+    "season": "2025/2026",
+    "price": 99,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131060/soccer-vault/2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131062/soccer-vault/2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131065/soccer-vault/2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "/collections/4842543/images/2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl/image4.png",
+      "/collections/4842543/images/2526-ac-milan-goalkeeper-long-sleeved-player-edition-s-xxl/image5.png"
+    ],
+    "description": "Official AC Milan GK jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "AC Milan",
+      "Serie A",
+      "GK",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Atletico Madrid Home Long Sleeved Player Edition S-xxl",
+    "club": "Atlético Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 79,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "/collections/4842543/images/2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl/image1.png",
+      "/collections/4842543/images/2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl/image2.png",
+      "/collections/4842543/images/2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl/image3.png",
+      "/collections/4842543/images/2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl/image4.png",
+      "/collections/4842543/images/2526-atletico-madrid-home-long-sleeved-player-edition-s-xxl/image5.png"
+    ],
+    "description": "Authentic Atlético Madrid Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Atlético Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl",
+    "title": "25/26 Al Ittihad Champion Commemorative Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 75,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "/collections/4842543/images/2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl/image1.png",
+      "/collections/4842543/images/2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl/image2.png",
+      "/collections/4842543/images/2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl/image3.png",
+      "/collections/4842543/images/2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl/image4.png",
+      "/collections/4842543/images/2526-al-ittihad-champion-commemorative-edition-player-edition-s-xxl/image5.png"
+    ],
+    "description": "Official Unknown Club Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-ac-milan-away-player-edition-s-xxl",
+    "title": "25/26 Ac Milan Away Player Edition S-xxl",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 80,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "/collections/4842543/images/2526-ac-milan-away-player-edition-s-xxl/image1.png",
+      "/collections/4842543/images/2526-ac-milan-away-player-edition-s-xxl/image2.png",
+      "/collections/4842543/images/2526-ac-milan-away-player-edition-s-xxl/image3.png",
+      "/collections/4842543/images/2526-ac-milan-away-player-edition-s-xxl/image4.png",
+      "/collections/4842543/images/2526-ac-milan-away-player-edition-s-xxl/image5.png"
+    ],
+    "description": "Official AC Milan Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "AC Milan",
+      "Serie A",
+      "Away",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-united-second-away-player-edition-s-3xl",
+    "title": "25/26 Manchester United Second Away Player Edition S-3xl",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "/collections/4842543/images/2526-manchester-united-second-away-player-edition-s-3xl/image1.png",
+      "/collections/4842543/images/2526-manchester-united-second-away-player-edition-s-3xl/image2.png",
+      "/collections/4842543/images/2526-manchester-united-second-away-player-edition-s-3xl/image3.png",
+      "/collections/4842543/images/2526-manchester-united-second-away-player-edition-s-3xl/image4.png",
+      "/collections/4842543/images/2526-manchester-united-second-away-player-edition-s-3xl/image5.png"
+    ],
+    "description": "Premium Manchester United Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Manchester United",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-bayern-home-player-edition-s-3xl",
+    "title": "25/26 Bayern Home Player Edition S-3xl",
+    "club": "Bayern",
+    "league": "Bundesliga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 91,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "/collections/4842543/images/2526-bayern-home-player-edition-s-3xl/image1.png",
+      "/collections/4842543/images/2526-bayern-home-player-edition-s-3xl/image2.png",
+      "/collections/4842543/images/2526-bayern-home-player-edition-s-3xl/image3.png",
+      "/collections/4842543/images/2526-bayern-home-player-edition-s-3xl/image4.png",
+      "/collections/4842543/images/2526-bayern-home-player-edition-s-3xl/image5.png"
+    ],
+    "description": "Official Bayern Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Bayern",
+      "Bundesliga",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-united-home-player-edition-s-3xl",
+    "title": "25/26 Manchester United Home Player Edition S-3xl",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 97,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131187/soccer-vault/2526-manchester-united-home-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131212/soccer-vault/2526-manchester-united-home-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131214/soccer-vault/2526-manchester-united-home-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131215/soccer-vault/2526-manchester-united-home-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131216/soccer-vault/2526-manchester-united-home-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Official Manchester United Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Manchester United",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-home-player-edition-s-3xl",
+    "title": "25/26 Barcelona Home Player Edition S-3xl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 82,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131218/soccer-vault/2526-barcelona-home-player-edition-s-3xl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131220/soccer-vault/2526-barcelona-home-player-edition-s-3xl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131222/soccer-vault/2526-barcelona-home-player-edition-s-3xl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131224/soccer-vault/2526-barcelona-home-player-edition-s-3xl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131227/soccer-vault/2526-barcelona-home-player-edition-s-3xl/image5.jpg"
+    ],
+    "description": "Authentic FC Barcelona Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-ac-milan-home-player-edition-s-xxl",
+    "title": "25/26 Ac Milan Home Player Edition S-xxl",
+    "club": "AC Milan",
+    "league": "Serie A",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131228/soccer-vault/2526-ac-milan-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131230/soccer-vault/2526-ac-milan-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131232/soccer-vault/2526-ac-milan-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131234/soccer-vault/2526-ac-milan-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131235/soccer-vault/2526-ac-milan-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium AC Milan Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "AC Milan",
+      "Serie A",
+      "Home",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-73",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 93,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic FC Barcelona Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-pachuca-away-player-edition-s-xxl",
+    "title": "25/26 Pachuca Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 90,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131255/soccer-vault/2526-pachuca-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131257/soccer-vault/2526-pachuca-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131259/soccer-vault/2526-pachuca-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131261/soccer-vault/2526-pachuca-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131262/soccer-vault/2526-pachuca-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-pachuca-home-player-edition-s-xxl",
+    "title": "25/26 Pachuca Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 81,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131265/soccer-vault/2526-pachuca-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131267/soccer-vault/2526-pachuca-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131270/soccer-vault/2526-pachuca-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131272/soccer-vault/2526-pachuca-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131274/soccer-vault/2526-pachuca-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-benfica-away-player-edition-s-xxl",
+    "title": "25/26 Benfica Away Player Edition S-xxl",
+    "club": "SL Benfica",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 79,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131277/soccer-vault/2526-benfica-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131281/soccer-vault/2526-benfica-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131283/soccer-vault/2526-benfica-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131285/soccer-vault/2526-benfica-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131289/soccer-vault/2526-benfica-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium SL Benfica Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "SL Benfica",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-lvp-away-player-edition-s-xxl",
+    "title": "25/26 Lvp Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131294/soccer-vault/2526-lvp-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131296/soccer-vault/2526-lvp-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131298/soccer-vault/2526-lvp-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131300/soccer-vault/2526-lvp-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131303/soccer-vault/2526-lvp-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Away jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-lvp-second-away-player-edition-s-xxl",
+    "title": "25/26 Lvp Second Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 79,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131307/soccer-vault/2526-lvp-second-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131309/soccer-vault/2526-lvp-second-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131311/soccer-vault/2526-lvp-second-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131312/soccer-vault/2526-lvp-second-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131314/soccer-vault/2526-lvp-second-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-amrica-away-player-edition-s-xxl",
+    "title": "25/26 América Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131320/soccer-vault/2526-amrica-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131322/soccer-vault/2526-amrica-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131324/soccer-vault/2526-amrica-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131327/soccer-vault/2526-amrica-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131329/soccer-vault/2526-amrica-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Unknown Club Away shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-amrica-special-edition-yellow-player-edition-s-xxl",
+    "title": "25/26 América Special Edition Yellow Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 90,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131333/soccer-vault/2526-amrica-special-edition-yellow-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131335/soccer-vault/2526-amrica-special-edition-yellow-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131337/soccer-vault/2526-amrica-special-edition-yellow-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131339/soccer-vault/2526-amrica-special-edition-yellow-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131340/soccer-vault/2526-amrica-special-edition-yellow-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-amrica-special-edition-player-edition-s-xxl",
+    "title": "25/26 América Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131344/soccer-vault/2526-amrica-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131347/soccer-vault/2526-amrica-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131349/soccer-vault/2526-amrica-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131351/soccer-vault/2526-amrica-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131354/soccer-vault/2526-amrica-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-arsenal-special-edition-player-edition-s-xxl",
+    "title": "25/26 Arsenal Special Edition Player Edition S-xxl",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131359/soccer-vault/2526-arsenal-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131361/soccer-vault/2526-arsenal-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131364/soccer-vault/2526-arsenal-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131366/soccer-vault/2526-arsenal-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131368/soccer-vault/2526-arsenal-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Arsenal Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Arsenal",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-sporting-lisbon-home-player-edition-s-xxl",
+    "title": "25/26 Sporting Lisbon Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131372/soccer-vault/2526-sporting-lisbon-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131375/soccer-vault/2526-sporting-lisbon-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131377/soccer-vault/2526-sporting-lisbon-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131379/soccer-vault/2526-sporting-lisbon-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131381/soccer-vault/2526-sporting-lisbon-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-nassr-second-away-player-edition-s-xxl",
+    "title": "25/26 Al Nassr Second Away Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131384/soccer-vault/2526-al-nassr-second-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131387/soccer-vault/2526-al-nassr-second-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131389/soccer-vault/2526-al-nassr-second-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131391/soccer-vault/2526-al-nassr-second-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131393/soccer-vault/2526-al-nassr-second-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Away jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-special-edition-player-edition-s-xxl-85",
+    "title": "25/26 Real Madrid Special Edition Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 109,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130723/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130725/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130726/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130728/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130730/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Real Madrid Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-86",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 88,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-87",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-88",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 76,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-89",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 87,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-90",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 83,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-special-edition-player-edition-s-xxl-91",
+    "title": "25/26 Real Madrid Special Edition Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130723/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130725/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130726/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130728/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130730/soccer-vault/2526-real-madrid-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Real Madrid Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-lvp-special-edition-player-edition-s-xxl",
+    "title": "25/26 Lvp Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131477/soccer-vault/2526-lvp-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131479/soccer-vault/2526-lvp-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131481/soccer-vault/2526-lvp-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131483/soccer-vault/2526-lvp-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131485/soccer-vault/2526-lvp-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-deportivo-palestine-special-edition-player-edition-s-xxl",
+    "title": "25/26 Deportivo Palestine Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 82,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131489/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131491/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131493/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131495/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131498/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-benfica-home-player-edition-s-xxl",
+    "title": "25/26 Benfica Home Player Edition S-xxl",
+    "club": "SL Benfica",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 78,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131500/soccer-vault/2526-benfica-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131501/soccer-vault/2526-benfica-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131503/soccer-vault/2526-benfica-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131505/soccer-vault/2526-benfica-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131506/soccer-vault/2526-benfica-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic SL Benfica Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "SL Benfica",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-mexico-special-edition-player-edition-s-xxl-95",
+    "title": "25/26 Mexico Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130705/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130708/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130709/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130711/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130712/soccer-vault/2526-mexico-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-96",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium FC Barcelona Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-inter-milan-special-edition-red-player-edition-s-xxl",
+    "title": "25/26 Inter Milan Special Edition Red Player Edition S-xxl",
+    "club": "Inter Milan",
+    "league": "Serie A",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 75,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131531/soccer-vault/2526-inter-milan-special-edition-red-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131533/soccer-vault/2526-inter-milan-special-edition-red-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131535/soccer-vault/2526-inter-milan-special-edition-red-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131537/soccer-vault/2526-inter-milan-special-edition-red-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131539/soccer-vault/2526-inter-milan-special-edition-red-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Inter Milan Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Inter Milan",
+      "Serie A",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-inter-milan-special-edition-white-player-edition-s-xxl",
+    "title": "25/26 Inter Milan Special Edition White Player Edition S-xxl",
+    "club": "Inter Milan",
+    "league": "Serie A",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 78,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131542/soccer-vault/2526-inter-milan-special-edition-white-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131544/soccer-vault/2526-inter-milan-special-edition-white-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131546/soccer-vault/2526-inter-milan-special-edition-white-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131548/soccer-vault/2526-inter-milan-special-edition-white-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131550/soccer-vault/2526-inter-milan-special-edition-white-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Inter Milan Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Inter Milan",
+      "Serie A",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-inter-milan-special-edition-black-player-edition-s-xxl",
+    "title": "25/26 Inter Milan Special Edition Black Player Edition S-xxl",
+    "club": "Inter Milan",
+    "league": "Serie A",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 85,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131553/soccer-vault/2526-inter-milan-special-edition-black-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131556/soccer-vault/2526-inter-milan-special-edition-black-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131561/soccer-vault/2526-inter-milan-special-edition-black-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131562/soccer-vault/2526-inter-milan-special-edition-black-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131564/soccer-vault/2526-inter-milan-special-edition-black-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Inter Milan Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Inter Milan",
+      "Serie A",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl",
+    "title": "25/26 Olympique Lyonnais Anniversary Edition Player Edition S-xxl",
+    "club": "Olympique Lyonnais",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 75,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131567/soccer-vault/2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131568/soccer-vault/2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131570/soccer-vault/2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131572/soccer-vault/2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131573/soccer-vault/2526-olympique-lyonnais-anniversary-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Olympique Lyonnais Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Olympique Lyonnais",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-argentina-special-edition-purple-player-edition-s-xxl",
+    "title": "25/26 Argentina Special Edition Purple Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 81,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131576/soccer-vault/2526-argentina-special-edition-purple-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131578/soccer-vault/2526-argentina-special-edition-purple-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131579/soccer-vault/2526-argentina-special-edition-purple-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131581/soccer-vault/2526-argentina-special-edition-purple-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131582/soccer-vault/2526-argentina-special-edition-purple-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-real-madrid-special-edition-purple-player-edition-s-xxl-102",
+    "title": "25/26 Real Madrid Special Edition Purple Player Edition S-xxl",
+    "club": "Real Madrid",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 95,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130435/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130438/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130441/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130443/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130445/soccer-vault/2526-real-madrid-special-edition-purple-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Real Madrid Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Real Madrid",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-pink-player-edition-s-xxl",
+    "title": "25/26 Barcelona Special Edition Pink Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 81,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131596/soccer-vault/2526-barcelona-special-edition-pink-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131597/soccer-vault/2526-barcelona-special-edition-pink-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131599/soccer-vault/2526-barcelona-special-edition-pink-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131601/soccer-vault/2526-barcelona-special-edition-pink-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131603/soccer-vault/2526-barcelona-special-edition-pink-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-arsenal-2nd-away-player-edition-s-xxl",
+    "title": "25/26 Arsenal 2nd Away Player Edition S-xxl",
+    "club": "Arsenal",
+    "league": "Premier League",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 80,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131605/soccer-vault/2526-arsenal-2nd-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131607/soccer-vault/2526-arsenal-2nd-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131609/soccer-vault/2526-arsenal-2nd-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131611/soccer-vault/2526-arsenal-2nd-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131613/soccer-vault/2526-arsenal-2nd-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Arsenal Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Arsenal",
+      "Premier League",
+      "Away",
+      "2025/2026",
+      "Adidas",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-deportivo-palestine-red-black-player-edition-s-xxl",
+    "title": "25/26 Deportivo Palestine Red Black Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 91,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131616/soccer-vault/2526-deportivo-palestine-red-black-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131618/soccer-vault/2526-deportivo-palestine-red-black-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131621/soccer-vault/2526-deportivo-palestine-red-black-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131622/soccer-vault/2526-deportivo-palestine-red-black-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131624/soccer-vault/2526-deportivo-palestine-red-black-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Unknown Club Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-deportivo-palestine-platinum-player-edition-s-xxl",
+    "title": "25/26 Deportivo Palestine Platinum Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131627/soccer-vault/2526-deportivo-palestine-platinum-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131628/soccer-vault/2526-deportivo-palestine-platinum-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131632/soccer-vault/2526-deportivo-palestine-platinum-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131635/soccer-vault/2526-deportivo-palestine-platinum-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131637/soccer-vault/2526-deportivo-palestine-platinum-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-deportivo-palestine-special-edition-player-edition-s-xxl-107",
+    "title": "25/26 Deportivo Palestine Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 80,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131489/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131491/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131493/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131495/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131498/soccer-vault/2526-deportivo-palestine-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-away-player-edition-s-xxl",
+    "title": "25/26 Barcelona Away Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131706/soccer-vault/2526-barcelona-away-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131751/soccer-vault/2526-barcelona-away-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131761/soccer-vault/2526-barcelona-away-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131765/soccer-vault/2526-barcelona-away-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131767/soccer-vault/2526-barcelona-away-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official FC Barcelona Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Away",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-river-plate-home-player-edition-s-xxl",
+    "title": "25/26 River Plate Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 76,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131769/soccer-vault/2526-river-plate-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131771/soccer-vault/2526-river-plate-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131772/soccer-vault/2526-river-plate-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131794/soccer-vault/2526-river-plate-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131796/soccer-vault/2526-river-plate-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-al-ain-home-player-edition-s-xxl",
+    "title": "25/26 Al Ain Home Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131799/soccer-vault/2526-al-ain-home-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131800/soccer-vault/2526-al-ain-home-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131802/soccer-vault/2526-al-ain-home-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131803/soccer-vault/2526-al-ain-home-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131805/soccer-vault/2526-al-ain-home-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-psg-purple-special-edition-player-edition-s-xxl",
+    "title": "25/26 Psg Purple Special Edition Player Edition S-xxl",
+    "club": "Paris Saint-Germain",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 94,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131807/soccer-vault/2526-psg-purple-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131808/soccer-vault/2526-psg-purple-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131810/soccer-vault/2526-psg-purple-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131812/soccer-vault/2526-psg-purple-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131824/soccer-vault/2526-psg-purple-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Authentic Paris Saint-Germain Home shirt featuring the latest 2025/2026 design. Made with high-quality materials for comfort and durability.",
+    "tags": [
+      "Paris Saint-Germain",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-manchester-city-home-long-sleeve-player-edition-s-xxl",
+    "title": "25/26 Manchester City Home Long Sleeve Player Edition S-xxl",
+    "club": "Manchester City",
+    "league": "Premier League",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 91,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131826/soccer-vault/2526-manchester-city-home-long-sleeve-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131828/soccer-vault/2526-manchester-city-home-long-sleeve-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131829/soccer-vault/2526-manchester-city-home-long-sleeve-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131831/soccer-vault/2526-manchester-city-home-long-sleeve-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131832/soccer-vault/2526-manchester-city-home-long-sleeve-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Manchester City Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Manchester City",
+      "Premier League",
+      "Home",
+      "2025/2026",
+      "Puma",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Puma",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-japan-special-edition-player-edition-s-xxl",
+    "title": "25/26 Japan Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 92,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131835/soccer-vault/2526-japan-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131836/soccer-vault/2526-japan-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131838/soccer-vault/2526-japan-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131840/soccer-vault/2526-japan-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131842/soccer-vault/2526-japan-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-barcelona-special-edition-player-edition-s-xxl-114",
+    "title": "25/26 Barcelona Special Edition Player Edition S-xxl",
+    "club": "FC Barcelona",
+    "league": "La Liga",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 88,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130310/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130312/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130314/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130316/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756130318/soccer-vault/2526-barcelona-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium FC Barcelona Home jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "FC Barcelona",
+      "La Liga",
+      "Home",
+      "2025/2026",
+      "Nike",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Nike",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-psg-home-with-star-player-edition-s-xxl",
+    "title": "25/26 Psg Home With Star Player Edition S-xxl",
+    "club": "Paris Saint-Germain",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 75,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131855/soccer-vault/2526-psg-home-with-star-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131857/soccer-vault/2526-psg-home-with-star-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131859/soccer-vault/2526-psg-home-with-star-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131861/soccer-vault/2526-psg-home-with-star-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131862/soccer-vault/2526-psg-home-with-star-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Paris Saint-Germain Home uniform for 2025/2026. High-quality fabric with authentic team details and design.",
+    "tags": [
+      "Paris Saint-Germain",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-brazil-special-edition-player-edition-s-xxl-116",
+    "title": "25/26 Brazil Special Edition Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Home",
+    "season": "2025/2026",
+    "price": 79,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131864/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131866/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131867/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131868/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131870/soccer-vault/2526-brazil-special-edition-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Unknown Club Home jersey for the 2025/2026 season. Premium quality with authentic team colors and design.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Home",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-algeria-white-training-suit-player-edition-s-xxl",
+    "title": "25/26 Algeria White Training Suit Player Edition S-xxl",
+    "club": "Unknown Club",
+    "league": "Other",
+    "category": "Training",
+    "season": "2025/2026",
+    "price": 66,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131871/soccer-vault/2526-algeria-white-training-suit-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131873/soccer-vault/2526-algeria-white-training-suit-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131874/soccer-vault/2526-algeria-white-training-suit-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131876/soccer-vault/2526-algeria-white-training-suit-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131878/soccer-vault/2526-algeria-white-training-suit-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Premium Unknown Club Training jersey from the 2025/2026 season. Authentic team branding and superior craftsmanship.",
+    "tags": [
+      "Unknown Club",
+      "Other",
+      "Training",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": false,
+    "isOnSale": false,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
+  },
+  {
+    "id": "2526-inter-milan-away-long-sleeved-player-edition-s-xxl",
+    "title": "25/26 Inter Milan Away Long Sleeved Player Edition S-xxl",
+    "club": "Inter Milan",
+    "league": "Serie A",
+    "category": "Away",
+    "season": "2025/2026",
+    "price": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131879/soccer-vault/2526-inter-milan-away-long-sleeved-player-edition-s-xxl/image1.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131880/soccer-vault/2526-inter-milan-away-long-sleeved-player-edition-s-xxl/image2.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131882/soccer-vault/2526-inter-milan-away-long-sleeved-player-edition-s-xxl/image3.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131883/soccer-vault/2526-inter-milan-away-long-sleeved-player-edition-s-xxl/image4.jpg",
+      "https://res.cloudinary.com/dzjeufpgy/image/upload/v1756131885/soccer-vault/2526-inter-milan-away-long-sleeved-player-edition-s-xxl/image5.jpg"
+    ],
+    "description": "Official Inter Milan Away kit for 2025/2026. Features the team's signature colors and authentic design elements.",
+    "tags": [
+      "Inter Milan",
+      "Serie A",
+      "Away",
+      "2025/2026",
+      "2025 Season"
+    ],
+    "isNew": true,
+    "isOnSale": true,
+    "inStock": true,
+    "brand": "Adidas",
+    "material": "100% Recycled Polyester"
   }
 ];
-
-export const categories = [
-  "All",
-  "Premier League",
-  "La Liga",
-  "Bundesliga",
-  "Ligue 1",
-  "Serie A",
-  "Champions League",
-  "National Teams",
-  "Other"
-];
-
-export const brands = [
-  "All",
-  "Adidas",
-  "Nike",
-  "Puma",
-  "Under Armour"
-];
-
-export const sizes = [
-  "S",
-  "M",
-  "L",
-  "XL",
-  "XXL"
-];
-
-export default products;

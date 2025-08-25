@@ -20,13 +20,13 @@ const { URL } = require('url');
 
 class EnhancedYupooScraper {
   constructor() {
-    this.baseUrl = 'https://jersey-factory.x.yupoo.com/';
+    this.baseUrl = 'https://jersey-factory.x.yupoo.com/collections/4842543';
     this.outputDir = path.join(__dirname, '../public/images');
     this.rawJsonPath = path.join(__dirname, '../data/raw.json');
     this.albums = [];
     this.delay = 2000; // 2 seconds between requests
-    this.maxAlbums = 50; // Configurable limit - reasonable for production
-    this.maxImagesPerAlbum = 8; // Configurable limit - good coverage
+    this.maxAlbums = 120; // Configurable limit - reasonable for production
+    this.maxImagesPerAlbum = 5; // Configurable limit - good coverage
     this.retryAttempts = 3;
     this.retryDelay = 5000; // 5 seconds between retries
   }
@@ -226,7 +226,7 @@ class EnhancedYupooScraper {
     try {
       // Set proper headers for image download
       await downloadPage.setExtraHTTPHeaders({
-        'Referer': 'https://jersey-factory.x.yupoo.com/',
+        'Referer': 'https://jersey-factory.x.yupoo.com/collections/4842543',
         'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
         'Accept-Language': 'en-US,en;q=0.9',
         'Cache-Control': 'no-cache',
@@ -291,7 +291,7 @@ class EnhancedYupooScraper {
       const response = await downloadPage.evaluate(async (url) => {
         const res = await fetch(url, {
           headers: {
-            'Referer': 'https://jersey-factory.x.yupoo.com/',
+            'Referer': 'https://jersey-factory.x.yupoo.com/collections/4842543',
             'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
             'Cache-Control': 'no-cache'
@@ -321,7 +321,7 @@ class EnhancedYupooScraper {
       if (imageUrl.startsWith('//')) {
         fullImageUrl = 'https:' + imageUrl;
       } else if (imageUrl.startsWith('/')) {
-        fullImageUrl = 'https://jersey-factory.x.yupoo.com' + imageUrl;
+        fullImageUrl = 'https://jersey-factory.x.yupoo.com/collections/4842543' + imageUrl;
       }
       
       const extension = this.getImageExtension(fullImageUrl);
@@ -419,7 +419,7 @@ class EnhancedYupooScraper {
           this.albums.push({
             albumUrl: album.href,
             albumTitle: album.title,
-            imageFiles: downloadedImages.map(img => `/images/${productSlug}/${img}`)
+            imageFiles: downloadedImages.map(img => `/collections/4842543/images/${productSlug}/${img}`)
           });
           
           console.log(`✅ Completed album: ${album.title} (${downloadedImages.length} images)`);
@@ -474,7 +474,7 @@ class EnhancedYupooScraper {
       
       console.log('\n🎉 Scraping completed successfully!');
       console.log(`📊 Total albums processed: ${this.albums.length}`);
-      console.log(`📁 Images saved to: ${this.outputDir}`);
+      console.log(`📁 Images saved to: ${this.outputDir}/collections/4842543`);
       console.log(`📄 Raw data saved to: ${this.rawJsonPath}`);
       console.log('\n📝 Next steps:');
       console.log('1. Review the raw.json file');

@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-3 items-center h-20">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex justify-start">
             <Link href="/" className="flex items-center group">
@@ -93,8 +93,8 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Desktop Navigation - Centered */}
-          <nav className="hidden md:flex space-x-1 justify-center">
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex space-x-1">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -108,7 +108,7 @@ export default function Header() {
           </nav>
 
           {/* Right Side Actions */}
-          <div className="flex items-center justify-end space-x-4">
+          <div className="flex items-center space-x-4">
             {/* Search Button */}
             <button className="hidden md:flex p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-all duration-300">
               <Search className="h-5 w-5" />

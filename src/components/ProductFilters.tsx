@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { FilterOptions } from "@/types";
-import { categories, brands, sizes } from "@/data/products";
+import { products } from "@/data/products";
 import { Filter, X, DollarSign, Tag, Users, Zap } from "lucide-react";
 
 interface ProductFiltersProps {
@@ -42,6 +42,34 @@ export default function ProductFilters({
     filters.priceRange[0] !== 0 ||
     filters.priceRange[1] !== 1000;
 
+  // Derive filter option lists from current products data
+  const categoryOptions = useMemo(() => {
+    const set = new Set<string>();
+    set.add("All");
+    for (const p of products) {
+      if (p.category) set.add(p.category);
+      if (p.league) set.add(p.league);
+    }
+    return Array.from(set);
+  }, []);
+
+  const brandOptions = useMemo(() => {
+    const set = new Set<string>();
+    set.add("All");
+    for (const p of products) {
+      if (p.brand) set.add(p.brand);
+    }
+    return Array.from(set);
+  }, []);
+
+  const sizeOptions = useMemo(() => {
+    const set = new Set<string>();
+    for (const p of products) {
+      for (const s of p.sizes || []) set.add(s);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, []);
+
   return (
     <div className="h-full flex flex-col">
       {/* Header - Fixed */}
@@ -70,7 +98,7 @@ export default function ProductFilters({
             <h3 className="font-semibold text-gray-900">Category</h3>
           </div>
           <div className="space-y-3">
-            {categories.map((category) => (
+            {categoryOptions.map((category) => (
               <label
                 key={category}
                 className="flex items-center cursor-pointer group"
@@ -168,7 +196,7 @@ export default function ProductFilters({
             <h3 className="font-semibold text-gray-900">Size</h3>
           </div>
           <div className="grid grid-cols-2 gap-2">
-            {sizes.map((size) => (
+            {sizeOptions.map((size) => (
               <label
                 key={size}
                 className="flex items-center cursor-pointer group"
@@ -196,7 +224,7 @@ export default function ProductFilters({
             <h3 className="font-semibold text-gray-900">Brand</h3>
           </div>
           <div className="space-y-3">
-            {brands.map((brand) => (
+            {brandOptions.map((brand) => (
               <label
                 key={brand}
                 className="flex items-center cursor-pointer group"

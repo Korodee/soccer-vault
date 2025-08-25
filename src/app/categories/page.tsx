@@ -145,7 +145,7 @@ export default function CategoriesPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {/* Subnav + Search */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col">
           {/* Tabs */}
           <div className="flex justify-center sm:justify-start">
             <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1">
@@ -174,14 +174,14 @@ export default function CategoriesPage() {
           {/* Search and Options */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
             {/* Search Input */}
-            <div className="flex-1">
+            {/* <div className="flex-1">
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={`search ${activeTab}`}
                 className="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-900/10"
               />
-            </div>
+            </div> */}
 
             {/* Alphabetical Toggle */}
             {activeTab === "clubs" && (

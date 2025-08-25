@@ -5,10 +5,8 @@ import Image from "next/image";
 import {
   ArrowRight,
   Star,
-  Shield,
   Truck,
   RefreshCw,
-  TrendingUp,
   Award,
   Users,
 } from "lucide-react";

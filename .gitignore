@@ -63,3 +63,17 @@ logs/
 .idea/
 *.swp
 *.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Cloudinary
+cloudinary.json

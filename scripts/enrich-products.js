@@ -225,7 +225,37 @@ class ProductEnrichmentPipeline {
       }
     }
     
-    return 'Unknown Club';
+    // Try to extract club name from title more intelligently
+    // Look for common patterns like "Club Name Home/Away"
+    const clubPatterns = [
+      /^([a-zA-Z\s]+)\s+(home|away|third|training|goalkeeper)/i,
+      /([a-zA-Z\s]+)\s+(jersey|kit|uniform|shirt)/i,
+      /([a-zA-Z\s]+)\s+(player|fan|replica)/i
+    ];
+    
+    for (const pattern of clubPatterns) {
+      const match = title.match(pattern);
+      if (match && match[1]) {
+        const potentialClub = match[1].trim();
+        if (potentialClub.length > 2 && potentialClub.length < 50) {
+          return this.capitalizeWords(potentialClub);
+        }
+      }
+    }
+    
+    // If we still can't identify, try to extract from the beginning of the title
+    // before any numbers or special characters
+    const cleanTitle = title.replace(/[0-9\/\-\(\)]/g, ' ').trim();
+    const words = cleanTitle.split(/\s+/);
+    if (words.length >= 2) {
+      const potentialClub = words.slice(0, 2).join(' ').trim();
+      if (potentialClub.length > 2 && potentialClub.length < 30) {
+        return this.capitalizeWords(potentialClub);
+      }
+    }
+    
+    // Last resort: return null instead of "Unknown Club"
+    return null;
   }
 
   extractLeague(title) {
@@ -513,6 +543,12 @@ export default products;
         const album = rawData.albums[i];
         const enrichedProduct = this.enrichAlbum(album);
         
+        // Skip products with null club (couldn't identify club)
+        if (!enrichedProduct.club) {
+          console.log(`⚠️  Skipped (no club): ${enrichedProduct.title}`);
+          continue;
+        }
+        
         // Ensure unique ID by adding index if needed
         let uniqueId = enrichedProduct.id;
         if (usedIds.has(uniqueId)) {
@@ -540,9 +576,9 @@ export default products;
       console.log(`📄 Products file saved to: ${this.outputPath}`);
       
       // Show summary
-      const clubs = [...new Set(this.products.map(p => p.club))];
-      const leagues = [...new Set(this.products.map(p => p.league))];
-      const categories = [...new Set(this.products.map(p => p.category))];
+      const clubs = [...new Set(this.products.map(p => p.club).filter(Boolean))];
+      const leagues = [...new Set(this.products.map(p => p.league).filter(Boolean))];
+      const categories = [...new Set(this.products.map(p => p.category).filter(Boolean))];
       
       console.log('\n📈 Summary:');
       console.log(`🏟️  Clubs: ${clubs.length} (${clubs.slice(0, 5).join(', ')}${clubs.length > 5 ? '...' : ''})`);

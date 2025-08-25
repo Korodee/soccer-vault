@@ -42,7 +42,8 @@ function aggregateData() {
     if (league) leagueToCount.set(league, (leagueToCount.get(league) || 0) + 1);
 
     const club = product.club?.trim();
-    if (club) {
+    // Filter out "Unknown Club" and empty club names
+    if (club && club !== "Unknown Club" && club.length > 0) {
       clubToCount.set(club, (clubToCount.get(club) || 0) + 1);
       if (league) clubToLeague.set(club, league);
     }
@@ -145,7 +146,8 @@ export default function CategoriesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {/* Subnav + Search */}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center justify-between">
+          {/* Tabs */}
+          <div className="flex justify-center sm:justify-start">
             <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1">
               {(
                 [
@@ -157,7 +159,7 @@ export default function CategoriesPage() {
                 <button
                   key={t.key}
                   onClick={() => setActiveTab(t.key)}
-                  className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                  className={`px-3 sm:px-4 py-2 text-sm font-medium rounded-md transition-colors ${
                     activeTab === t.key
                       ? "bg-gray-900 text-white"
                       : "text-gray-700 hover:bg-gray-50"
@@ -167,26 +169,32 @@ export default function CategoriesPage() {
                 </button>
               ))}
             </div>
+          </div>
 
-            <div className="flex items-center gap-3">
-              {activeTab === "clubs" && (
-                <label className="inline-flex items-center gap-2 text-sm text-gray-700">
-                  <input
-                    type="checkbox"
-                    checked={alphabeticalClubs}
-                    onChange={(e) => setAlphabeticalClubs(e.target.checked)}
-                    className="h-4 w-4 rounded border-gray-300 text-gray-900 focus:ring-gray-900"
-                  />
-                  alphabetical
-                </label>
-              )}
+          {/* Search and Options */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            {/* Search Input */}
+            <div className="flex-1">
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={`search ${activeTab}`}
-                className="w-64 max-w-[60vw] rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-900/10"
+                className="w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-900/10"
               />
             </div>
+
+            {/* Alphabetical Toggle */}
+            {activeTab === "clubs" && (
+              <label className="inline-flex items-center justify-center gap-2 text-sm text-gray-700 bg-white border border-gray-200 rounded-lg px-3 py-2 whitespace-nowrap">
+                <input
+                  type="checkbox"
+                  checked={alphabeticalClubs}
+                  onChange={(e) => setAlphabeticalClubs(e.target.checked)}
+                  className="h-4 w-4 rounded border-gray-300 text-gray-900 focus:ring-gray-900"
+                />
+                alphabetical
+              </label>
+            )}
           </div>
         </div>
 

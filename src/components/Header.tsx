@@ -160,24 +160,6 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
-              <div className="border-t border-gray-100 pt-3 mt-3">
-                <Link
-                  href="/search"
-                  className="text-gray-700 hover:text-gray-900 hover:bg-gray-50 px-3 py-3 text-base font-semibold rounded-lg transition-all duration-300 flex items-center gap-3"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <Search className="h-5 w-5" />
-                  Search
-                </Link>
-                <Link
-                  href="/account"
-                  className="text-gray-700 hover:text-gray-900 hover:bg-gray-50 px-3 py-3 text-base font-semibold rounded-lg transition-all duration-300 flex items-center gap-3"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <User className="h-5 w-5" />
-                  Account
-                </Link>
-              </div>
             </div>
           </div>
         )}

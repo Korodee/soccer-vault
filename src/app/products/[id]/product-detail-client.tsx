@@ -195,7 +195,7 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
             {/* Size and Quantity Row */}
             <div className="grid grid-cols-10 gap-4">
               {/* Size Selection */}
-              <div className="col-span-7 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+              <div className="col-span-7 sm:col-span-7 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
                 <h3 className="text-base font-bold text-gray-900 mb-3">Select Size</h3>
                 <div className="grid grid-cols-5 gap-2">
                   {product.sizes.map((size) => (
@@ -215,7 +215,7 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
               </div>
 
               {/* Quantity */}
-              <div className="col-span-3 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
+              <div className="col-span-5 sm:col-span-3 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
                 <h3 className="text-base font-bold text-gray-900 mb-3">Quantity</h3>
                 <div className="flex items-center gap-2">
                   <div className="flex items-center bg-gray-100 rounded-2xl p-1">

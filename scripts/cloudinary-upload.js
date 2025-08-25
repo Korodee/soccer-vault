@@ -1,6 +1,25 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { v2: cloudinary } = require('cloudinary');
+const fsSync = require('fs');
+
+// Lightweight .env loader so the script works via `node` without dotenv
+(() => {
+  try {
+    const envPath = path.join(process.cwd(), '.env.local');
+    if (fsSync.existsSync(envPath)) {
+      const raw = fsSync.readFileSync(envPath, 'utf8');
+      raw.split(/\r?\n/).forEach((line) => {
+        if (!line || line.trim().startsWith('#')) return;
+        const idx = line.indexOf('=');
+        if (idx === -1) return;
+        const key = line.slice(0, idx).trim();
+        const value = line.slice(idx + 1).trim();
+        if (key && !(key in process.env)) process.env[key] = value;
+      });
+    }
+  } catch (_) {}
+})();
 
 /**
  * Cloudinary Upload Script
@@ -17,36 +36,42 @@ class CloudinaryUploader {
     this.rawJsonPath = path.join(__dirname, '../data/raw.json');
     this.uploadedImages = [];
     
-    // Configure Cloudinary
-    if (process.env.CLOUDINARY_URL) {
+    // Configure Cloudinary. Prefer CLOUDINARY_URL if provided
+    if (process.env.CLOUDINARY_URL || (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET)) {
       cloudinary.config({
         cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
         api_key: process.env.CLOUDINARY_API_KEY,
-        api_secret: process.env.CLOUDINARY_API_SECRET
+        api_secret: process.env.CLOUDINARY_API_SECRET,
+        secure: true,
       });
     }
   }
 
   async uploadImage(imagePath, productSlug, imageIndex) {
-    try {
-      console.log(`  ☁️ Uploading: ${imagePath}`);
-      
-      const result = await cloudinary.uploader.upload(imagePath, {
-        folder: `soccer-vault/${productSlug}`,
-        public_id: `image${imageIndex + 1}`,
-        overwrite: true,
-        resource_type: 'image',
-        transformation: [
-          { quality: 'auto:good', fetch_format: 'auto' }
-        ]
-      });
-      
-      console.log(`  ✅ Uploaded: ${result.secure_url}`);
-      return result.secure_url;
-      
-    } catch (error) {
-      console.error(`  ❌ Upload failed for ${imagePath}:`, error.message);
-      return null;
+    const maxAttempts = 3;
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        console.log(`  ☁️ Uploading: ${imagePath}${attempt > 1 ? ` (retry ${attempt}/${maxAttempts})` : ''}`);
+        const result = await cloudinary.uploader.upload(imagePath, {
+          folder: `soccer-vault/${productSlug}`,
+          public_id: `image${imageIndex + 1}`,
+          overwrite: true,
+          resource_type: 'image',
+          transformation: [
+            { quality: 'auto:good', fetch_format: 'auto' }
+          ]
+        });
+        console.log(`  ✅ Uploaded: ${result.secure_url}`);
+        return result.secure_url;
+      } catch (error) {
+        console.error(`  ❌ Upload failed for ${imagePath}:`, error.message);
+        if (attempt < maxAttempts) {
+          const backoffMs = 1000 * attempt;
+          await new Promise(r => setTimeout(r, backoffMs));
+          continue;
+        }
+        return null;
+      }
     }
   }
 
@@ -56,6 +81,12 @@ class CloudinaryUploader {
     
     for (let i = 0; i < imageFiles.length; i++) {
       const imageFile = imageFiles[i];
+      // If it's already a remote URL (e.g., Cloudinary), keep as is
+      if (/^https?:\/\//i.test(imageFile)) {
+        uploadedUrls.push(imageFile);
+        continue;
+      }
+
       const imagePath = path.join(productDir, imageFile.split('/').pop());
       
       if (await this.fileExists(imagePath)) {
@@ -63,7 +94,7 @@ class CloudinaryUploader {
         if (cloudinaryUrl) {
           uploadedUrls.push(cloudinaryUrl);
         } else {
-          // Fallback to local path if upload fails
+          // Keep the local reference for a later retry
           uploadedUrls.push(imageFile);
         }
       } else {
@@ -109,7 +140,7 @@ class CloudinaryUploader {
     console.log('☁️ Cloudinary Upload Script');
     console.log('============================');
     
-    if (!process.env.CLOUDINARY_URL) {
+    if (!process.env.CLOUDINARY_URL && !(process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET)) {
       console.log('❌ CLOUDINARY_URL environment variable not set');
       console.log('💡 Add CLOUDINARY_URL to your .env file');
       return;
@@ -131,7 +162,7 @@ class CloudinaryUploader {
         
         console.log(`\n📁 Processing album ${i + 1}/${rawData.albums.length}: ${album.albumTitle}`);
         
-        // Upload images to Cloudinary
+        // Upload images to Cloudinary (skip ones already on Cloudinary)
         const cloudinaryUrls = await this.uploadProductImages(productSlug, album.imageFiles);
         
         // Update album with Cloudinary URLs

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ShoppingCart, Menu, X, Search, User } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useState } from "react";
@@ -19,68 +20,21 @@ export default function Header() {
   return (
     <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20 relative">
           {/* Logo */}
           <div className="flex justify-start">
             <Link href="/" className="flex items-center group">
               <div className="flex items-center space-x-3">
-                {/* Custom Soccer Ball Logo */}
-                <div className="relative">
-                  <svg
-                    width="36"
-                    height="36"
-                    viewBox="0 0 36 36"
-                    className="text-gray-800 group-hover:text-gray-900 transition-colors duration-300"
-                    fill="currentColor"
-                  >
-                    {/* Main ball circle with shadow */}
-                    <defs>
-                      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-                        <feDropShadow dx="0" dy="2" stdDeviation="2" floodColor="rgba(0,0,0,0.1)"/>
-                      </filter>
-                    </defs>
-                    
-                    {/* Soccer ball base */}
-                    <circle cx="18" cy="18" r="16" fill="currentColor" filter="url(#shadow)" />
-                    
-                    {/* Soccer ball pattern - classic black and white hexagons */}
-                    <path
-                      d="M18 4 L22 8 L20 14 L16 16 L12 14 L14 8 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    <path
-                      d="M26 12 L30 16 L28 22 L24 20 L20 16 L22 12 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    <path
-                      d="M10 12 L14 16 L12 22 L8 20 L6 16 L8 12 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    <path
-                      d="M18 26 L22 30 L20 24 L16 22 L12 24 L14 30 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    <path
-                      d="M26 20 L30 24 L28 18 L24 16 L20 18 L22 24 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    <path
-                      d="M10 20 L14 24 L12 18 L8 16 L4 18 L6 24 Z"
-                      fill="white"
-                      opacity="0.95"
-                    />
-                    
-                    {/* Center detail */}
-                    <circle cx="18" cy="18" r="2.5" fill="white" opacity="0.9" />
-                    
-                    {/* Subtle stitching effect */}
-                    <circle cx="18" cy="18" r="15.5" fill="none" stroke="rgba(255,255,255,0.3)" strokeWidth="0.5" />
-                  </svg>
+                {/* Brand logo image */}
+                <div className="relative h-16 w-16">
+                  <Image
+                    src="/logo.png"
+                    alt="Soccer Vault logo"
+                    fill
+                    sizes="64px"
+                    className="object-contain"
+                    priority
+                  />
                 </div>
                 
                 {/* Text with enhanced styling */}
@@ -94,7 +48,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-1">
+          <nav className="hidden md:flex space-x-1 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
             {navigation.map((item) => (
               <Link
                 key={item.name}

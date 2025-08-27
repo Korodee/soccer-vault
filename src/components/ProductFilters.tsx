@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { FilterOptions } from "@/types";
 import { products } from "@/data/products";
-import { Filter, X, DollarSign, Tag, Users, Zap } from "lucide-react";
+import { Filter, X, DollarSign, Tag, Zap } from "lucide-react";
 
 interface ProductFiltersProps {
   filters: FilterOptions;
@@ -38,7 +38,7 @@ export default function ProductFilters({
   const hasActiveFilters =
     filters.category !== "All" ||
     filters.brand !== "All" ||
-    filters.size !== "" ||
+    /* filters.size !== "" || */
     filters.priceRange[0] !== 0 ||
     filters.priceRange[1] !== 1000;
 
@@ -62,13 +62,13 @@ export default function ProductFilters({
     return Array.from(set);
   }, []);
 
-  const sizeOptions = useMemo(() => {
-    const set = new Set<string>();
-    for (const p of products) {
-      for (const s of p.sizes || []) set.add(s);
-    }
-    return Array.from(set).sort((a, b) => a.localeCompare(b));
-  }, []);
+  // const sizeOptions = useMemo(() => {
+  //   const set = new Set<string>();
+  //   for (const p of products) {
+  //     for (const s of p.sizes || []) set.add(s);
+  //   }
+  //   return Array.from(set).sort((a, b) => a.localeCompare(b));
+  // }, []);
 
   return (
     <div className="h-full flex flex-col">
@@ -189,7 +189,8 @@ export default function ProductFilters({
           </div>
         </div>
 
-        {/* Size Filter */}
+        {/* Size Filter - temporarily disabled */}
+        {/**
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Users className="h-4 w-4 text-gray-600" />
@@ -216,6 +217,7 @@ export default function ProductFilters({
             ))}
           </div>
         </div>
+        */}
 
         {/* Brand Filter */}
         <div>
@@ -275,7 +277,7 @@ export default function ProductFilters({
                 </button>
               </div>
             )}
-            {filters.size !== "" && (
+            {false && filters.size !== "" && (
               <div className="flex items-center justify-between bg-gray-50 text-gray-800 px-3 py-2 rounded-lg text-sm">
                 <span>Size: {filters.size}</span>
                 <button

@@ -56,12 +56,12 @@ function ProductsContent() {
         product.price <= filters.priceRange[1]
     );
 
-    // Apply size filter
-    if (filters.size) {
-      filtered = filtered.filter((product) =>
-        product.sizes.includes(filters.size)
-      );
-    }
+    // Apply size filter (temporarily disabled)
+    // if (filters.size) {
+    //   filtered = filtered.filter((product) =>
+    //     product.sizes.includes(filters.size)
+    //   );
+    // }
 
     // Apply search filter
     if (searchTerm) {

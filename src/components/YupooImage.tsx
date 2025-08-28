@@ -23,10 +23,13 @@ export default function YupooImage({
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
+  // TEMPORARY: Force all images to show "not available" until payment
+  const forceImageError = true;
+
   // Check if it's a Yupoo image
   const isYupooImage = src.includes('photo.yupoo.com');
 
-  if (imageError) {
+  if (imageError || forceImageError) {
     return (
       <div 
         className={`bg-gray-200 flex items-center justify-center ${className}`}

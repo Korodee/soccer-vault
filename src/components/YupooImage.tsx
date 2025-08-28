@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { useState } from 'react';
+import Image from "next/image";
+import { useState } from "react";
 
 interface YupooImageProps {
   src: string;
@@ -12,26 +12,23 @@ interface YupooImageProps {
   priority?: boolean;
 }
 
-export default function YupooImage({ 
-  src, 
-  alt, 
-  width = 400, 
-  height = 400, 
-  className = '',
-  priority = false 
+export default function YupooImage({
+  src,
+  alt,
+  width = 400,
+  height = 400,
+  className = "",
+  priority = false,
 }: YupooImageProps) {
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  // TEMPORARY: Force all images to show "not available" until payment
-  const forceImageError = true;
-
   // Check if it's a Yupoo image
-  const isYupooImage = src.includes('photo.yupoo.com');
+  const isYupooImage = src.includes("photo.yupoo.com");
 
-  if (imageError || forceImageError) {
+  if (imageError) {
     return (
-      <div 
+      <div
         className={`bg-gray-200 flex items-center justify-center ${className}`}
         style={{ width, height }}
       >
@@ -46,7 +43,7 @@ export default function YupooImage({
   if (isYupooImage) {
     // Use our proxy for Yupoo images
     const proxyUrl = `/api/proxy-image?url=${encodeURIComponent(src)}`;
-    
+
     return (
       <div className={`relative ${className}`} style={{ width, height }}>
         <Image
@@ -55,7 +52,7 @@ export default function YupooImage({
           width={width}
           height={height}
           className={`object-cover transition-opacity duration-300 ${
-            isLoading ? 'opacity-0' : 'opacity-100'
+            isLoading ? "opacity-0" : "opacity-100"
           }`}
           priority={priority}
           onLoad={() => setIsLoading(false)}

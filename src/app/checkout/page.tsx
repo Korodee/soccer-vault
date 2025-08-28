@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/contexts/CartContext';
-import { formatPrice } from '@/lib/utils';
+import { formatPrice, getDisplayPrice } from '@/lib/utils';
 import { CheckoutFormData } from '@/types';
 import YupooImage from '@/components/YupooImage';
 import { 
@@ -319,7 +319,7 @@ export default function CheckoutPage() {
                      <div className="flex-1 min-w-0">
                        <p className="font-semibold text-gray-900 text-sm truncate">{item.product.title}</p>
                        <p className="text-xs text-gray-600 mt-1">Size: {item.size} | Qty: {item.quantity}</p>
-                       <p className="font-bold text-gray-900 mt-2">{formatPrice(item.product.price * item.quantity)}</p>
+                       <p className="font-bold text-gray-900 mt-2">{formatPrice(getDisplayPrice(item.product) * item.quantity)}</p>
                      </div>
                    </div>
                  ))}
@@ -329,7 +329,7 @@ export default function CheckoutPage() {
               <div className="border-t border-gray-200 pt-6 space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Subtotal</span>
-                  <span className="font-semibold text-gray-900">{formatPrice(getTotalPrice())}</span>
+                  <span className="font-semibold text-gray-900">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600 flex items-center gap-2">
@@ -341,7 +341,7 @@ export default function CheckoutPage() {
                 <div className="border-t border-gray-200 pt-3">
                   <div className="flex justify-between items-center">
                     <span className="text-lg font-bold text-gray-900">Total</span>
-                    <span className="text-xl font-bold text-gray-900">{formatPrice(getTotalPrice())}</span>
+                    <span className="text-xl font-bold text-gray-900">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
                   </div>
                 </div>
               </div>

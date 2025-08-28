@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ShoppingCart, Heart, Eye } from 'lucide-react';
 import { Product } from '@/types';
-import { formatPrice, calculateDiscount } from '@/lib/utils';
+import { formatPrice, calculateDiscount, getDisplayPrice } from '@/lib/utils';
 import { useCart } from '@/contexts/CartContext';
 import { useState } from 'react';
 import YupooImage from './YupooImage';
@@ -84,7 +84,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         {/* Price */}
         <div className="flex items-center gap-3 mb-4">
           <span className="text-lg font-bold text-gray-900">
-            {formatPrice(product.price)}
+            {formatPrice(getDisplayPrice(product))}
           </span>
           {product.originalPrice && (
             <span className="text-sm text-gray-400 line-through font-medium">

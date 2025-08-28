@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useCart } from "@/contexts/CartContext";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, getDisplayPrice } from "@/lib/utils";
 import YupooImage from "@/components/YupooImage";
 import {
   Minus,
@@ -164,7 +164,7 @@ export default function CartPage() {
                               </span>
                             </div>
                             <p className="text-base sm:text-lg font-bold text-gray-900 bg-gray-50 px-3 py-2 rounded-lg sm:rounded-xl inline-block">
-                              {formatPrice(item.product.price)}
+                              {formatPrice(getDisplayPrice(item.product))}
                             </p>
                           </div>
 
@@ -251,7 +251,7 @@ export default function CartPage() {
                     Subtotal ({items.length} items)
                   </span>
                   <span className="font-bold text-sm sm:text-base text-gray-900">
-                    {formatPrice(getTotalPrice())}
+                    {formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}
                   </span>
                 </div>
                 <div className="flex justify-between items-center py-2 sm:py-3">
@@ -267,7 +267,7 @@ export default function CartPage() {
                       Total
                     </span>
                     <span className="text-lg sm:text-xl font-bold text-gray-900">
-                      {formatPrice(getTotalPrice())}
+                      {formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}
                     </span>
                   </div>
                 </div>

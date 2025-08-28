@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Product } from '@/types';
 import ImageGallery from '@/components/ImageGallery';
 import { useCart } from '@/contexts/CartContext';
-import { formatPrice, calculateDiscount } from '@/lib/utils';
+import { formatPrice, calculateDiscount, getDisplayPrice } from '@/lib/utils';
 import { 
   Minus, 
   Plus, 
@@ -146,7 +146,7 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-4 rounded-2xl">
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-gray-900">
-                  {formatPrice(product.price)}
+                  {formatPrice(getDisplayPrice(product))}
                 </span>
                 {product.originalPrice && (
                   <span className="text-lg text-gray-500 line-through">

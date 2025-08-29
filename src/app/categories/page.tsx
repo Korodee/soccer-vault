@@ -113,7 +113,7 @@ export default function CategoriesPage() {
   }, [clubs, query, alphabeticalClubs]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Hero */}
       <div className="relative bg-black text-white h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
@@ -127,15 +127,15 @@ export default function CategoriesPage() {
         </div>
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-bold mb-3 text-yellow-200">
             Browse by category and league
           </h1>
-          <p className="text-md text-gray-200 max-w-2xl mx-auto">
+          <p className="text-md text-gray-300 max-w-2xl mx-auto">
             Find jerseys by kit type or competition
           </p>
           <Link
             href="/products"
-            className="inline-flex mt-4 items-center justify-center px-6 py-3 bg-white text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+            className="inline-flex mt-4 items-center justify-center px-6 py-3 bg-gradient-to-r from-yellow-200 to-yellow-100 text-black font-semibold rounded-xl hover:from-yellow-200 hover:to-yellow-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             open catalog
             <ArrowRight className="h-4 w-4 ml-2" />
@@ -148,7 +148,7 @@ export default function CategoriesPage() {
         <div className="flex flex-col">
           {/* Tabs */}
           <div className="flex justify-center sm:justify-start">
-            <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1">
+            <div className="inline-flex rounded-xl border border-gray-700 bg-gray-800 p-1">
               {(
                 [
                   { key: "categories", label: "categories" },
@@ -159,10 +159,10 @@ export default function CategoriesPage() {
                 <button
                   key={t.key}
                   onClick={() => setActiveTab(t.key)}
-                  className={`px-3 sm:px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                  className={`px-3 sm:px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                     activeTab === t.key
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-700 hover:bg-gray-50"
+                      ? "bg-yellow-200 text-black shadow-lg"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   }`}
                 >
                   {t.label}
@@ -185,12 +185,12 @@ export default function CategoriesPage() {
 
             {/* Alphabetical Toggle */}
             {activeTab === "clubs" && (
-              <label className="inline-flex items-center justify-center gap-2 text-sm text-gray-700 bg-white border border-gray-200 rounded-lg px-3 py-2 whitespace-nowrap">
+              <label className="inline-flex items-center justify-center gap-2 text-sm text-gray-300 bg-gray-800 border border-gray-700 rounded-xl px-3 py-2 whitespace-nowrap hover:bg-gray-700 transition-colors">
                 <input
                   type="checkbox"
                   checked={alphabeticalClubs}
                   onChange={(e) => setAlphabeticalClubs(e.target.checked)}
-                  className="h-4 w-4 rounded border-gray-300 text-gray-900 focus:ring-gray-900"
+                  className="h-4 w-4 rounded border-gray-600 text-yellow-200 focus:ring-yellow-200 bg-gray-800"
                 />
                 alphabetical
               </label>
@@ -202,12 +202,12 @@ export default function CategoriesPage() {
         <section className={activeTab === "categories" ? "block" : "hidden"}>
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
-              <Tag className="h-5 w-5 text-gray-700" />
-              <h2 className="text-xl font-semibold text-gray-900">
+              <Tag className="h-5 w-5 text-yellow-200" />
+              <h2 className="text-xl font-semibold text-yellow-200">
                 categories
               </h2>
             </div>
-            <span className="text-sm text-gray-500">
+            <span className="text-sm text-gray-400">
               {categories.length} groups
             </span>
           </div>
@@ -217,16 +217,16 @@ export default function CategoriesPage() {
               <Link
                 key={c.name}
                 href={`/products?category=${encodeURIComponent(c.name)}`}
-                className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-5 hover:border-gray-300 hover:shadow-sm transition-all"
+                className="group flex items-center gap-4 rounded-3xl border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-5 hover:border-yellow-500/50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-900 text-white">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-100 text-black shadow-lg">
                   {getCategoryIcon(c.name)}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-gray-900 font-medium truncate">{c.name}</p>
-                  <p className="text-gray-500 text-sm">{c.count} items</p>
+                  <p className="text-white font-medium truncate">{c.name}</p>
+                  <p className="text-gray-400 text-sm">{c.count} items</p>
                 </div>
-                <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-gray-600" />
+                <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-yellow-200 transition-colors" />
               </Link>
             ))}
           </div>
@@ -236,10 +236,10 @@ export default function CategoriesPage() {
         <section className={activeTab === "leagues" ? "block" : "hidden"}>
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
-              <Trophy className="h-5 w-5 text-gray-700" />
-              <h2 className="text-xl font-semibold text-gray-900">leagues</h2>
+              <Trophy className="h-5 w-5 text-yellow-200" />
+              <h2 className="text-xl font-semibold text-yellow-200">leagues</h2>
             </div>
-            <span className="text-sm text-gray-500">
+            <span className="text-sm text-gray-400">
               {leagues.length} groups
             </span>
           </div>
@@ -249,17 +249,17 @@ export default function CategoriesPage() {
               <Link
                 key={l.name}
                 href={`/products?category=${encodeURIComponent(l.name)}`}
-                className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-5 hover:border-gray-300 hover:shadow-sm transition-all"
+                className="group flex items-center gap-4 rounded-3xl border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-5 hover:border-yellow-500/50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               >
-                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-900 text-white">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-yellow-200 to-yellow-100 text-black shadow-lg">
                   {/* simple neutral icon per league */}
                   <Globe className="h-5 w-5" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-gray-900 font-medium truncate">{l.name}</p>
-                  <p className="text-gray-500 text-sm">{l.count} items</p>
+                  <p className="text-white font-medium truncate">{l.name}</p>
+                  <p className="text-gray-400 text-sm">{l.count} items</p>
                 </div>
-                <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-gray-600" />
+                <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-yellow-200 transition-colors" />
               </Link>
             ))}
           </div>
@@ -269,10 +269,10 @@ export default function CategoriesPage() {
         <section className={activeTab === "clubs" ? "block" : "hidden"}>
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <Users className="h-5 w-5 text-gray-700" />
-              <h2 className="text-xl font-semibold text-gray-900">clubs</h2>
+              <Users className="h-5 w-5 text-yellow-200" />
+              <h2 className="text-xl font-semibold text-yellow-200">clubs</h2>
             </div>
-            <span className="text-sm text-gray-500">top {clubs.length}</span>
+            <span className="text-sm text-gray-400">top {clubs.length}</span>
           </div>
 
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
@@ -280,12 +280,12 @@ export default function CategoriesPage() {
               <li key={club.name}>
                 <Link
                   href={`/products?category=${encodeURIComponent(club.name)}`}
-                  className="flex items-center justify-between rounded-lg border border-gray-200 bg-white px-4 py-3 hover:border-gray-300 hover:shadow-sm transition-all"
+                  className="flex items-center justify-between rounded-xl border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 px-4 py-3 hover:border-yellow-500/50 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <span className="text-sm font-medium text-gray-900 truncate pr-3">
+                  <span className="text-sm font-medium text-white truncate pr-3">
                     {club.name}
                   </span>
-                  <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                  <span className="text-xs text-black bg-yellow-200 px-2 py-1 rounded-full font-medium">
                     {club.count}
                   </span>
                 </Link>

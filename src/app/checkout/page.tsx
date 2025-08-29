@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = "force-dynamic";
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -84,21 +85,21 @@ export default function CheckoutPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Header */}
-      <div className="bg-white border-b border-gray-100">
+      <div className="bg-gradient-to-br from-gray-900 to-black border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <Link
               href="/cart"
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+              className="flex items-center gap-2 text-gray-300 hover:text-yellow-200 transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
               <span className="font-medium">Back to Cart</span>
             </Link>
             <div className="text-right">
-              <h1 className="text-2xl font-bold text-gray-900">Secure Checkout</h1>
-              <p className="text-sm text-gray-600">{items.length} {items.length === 1 ? 'item' : 'items'}</p>
+              <h1 className="text-2xl font-bold text-yellow-200">Secure Checkout</h1>
+              <p className="text-sm text-gray-400">{items.length} {items.length === 1 ? 'item' : 'items'}</p>
             </div>
           </div>
         </div>
@@ -110,17 +111,17 @@ export default function CheckoutPage() {
           <div className="lg:col-span-2 space-y-8">
             <form onSubmit={handleSubmit}>
               {/* Customer Information */}
-              <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-8">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <User className="h-5 w-5 text-blue-600" />
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl shadow-xl border border-gray-700 p-8">
+                                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                      <User className="h-5 w-5 text-yellow-200" />
+                    </div>
+                    <h2 className="text-xl font-bold text-yellow-200">Customer Information</h2>
                   </div>
-                  <h2 className="text-xl font-bold text-gray-900">Customer Information</h2>
-                </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="firstName" className="block text-sm font-semibold text-gray-300 mb-2">
                       First Name *
                     </label>
                     <input
@@ -130,13 +131,13 @@ export default function CheckoutPage() {
                       value={formData.firstName}
                       onChange={handleInputChange}
                       required
-                      className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                      className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                       placeholder="Enter your first name"
                     />
                   </div>
                   
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="lastName" className="block text-sm font-semibold text-gray-300 mb-2">
                       Last Name *
                     </label>
                     <input
@@ -146,7 +147,7 @@ export default function CheckoutPage() {
                       value={formData.lastName}
                       onChange={handleInputChange}
                       required
-                      className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                      className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                       placeholder="Enter your last name"
                     />
                   </div>
@@ -154,7 +155,7 @@ export default function CheckoutPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">
                       Email Address *
                     </label>
                     <div className="relative">
@@ -166,14 +167,14 @@ export default function CheckoutPage() {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        className="w-full text-gray-700 pl-10 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                        className="w-full text-white bg-gray-800 pl-10 pr-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                         placeholder="your@email.com"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="phone" className="block text-sm font-semibold text-gray-300 mb-2">
                       Phone Number *
                     </label>
                     <div className="relative">
@@ -185,7 +186,7 @@ export default function CheckoutPage() {
                         value={formData.phone}
                         onChange={handleInputChange}
                         required
-                        className="w-full text-gray-700 pl-10 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                        className="w-full text-white bg-gray-800 pl-10 pr-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                         placeholder="+1 (555) 123-4567"
                       />
                     </div>
@@ -194,17 +195,17 @@ export default function CheckoutPage() {
               </div>
 
               {/* Shipping Address */}
-              <div className="bg-white rounded-3xl mt-6 shadow-xl border border-gray-100 p-8">
+              <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl mt-6 shadow-xl border border-gray-700 p-8">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                    <MapPin className="h-5 w-5 text-green-600" />
+                  <div className="w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center">
+                    <MapPin className="h-5 w-5 text-green-400" />
                   </div>
-                  <h2 className="text-xl font-bold text-gray-900">Shipping Address</h2>
+                  <h2 className="text-xl font-bold text-yellow-200">Shipping Address</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div>
-                    <label htmlFor="address" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="address" className="block text-sm font-semibold text-gray-300 mb-2">
                       Street Address *
                     </label>
                     <input
@@ -214,14 +215,14 @@ export default function CheckoutPage() {
                       value={formData.address}
                       onChange={handleInputChange}
                       required
-                      className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                      className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                       placeholder="123 Main Street"
                     />
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
-                      <label htmlFor="city" className="block text-sm font-semibold text-gray-700 mb-2">
+                      <label htmlFor="city" className="block text-sm font-semibold text-gray-300 mb-2">
                         City *
                       </label>
                       <input
@@ -231,13 +232,13 @@ export default function CheckoutPage() {
                         value={formData.city}
                         onChange={handleInputChange}
                         required
-                        className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                        className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                         placeholder="New York"
                       />
                     </div>
                     
                     <div>
-                      <label htmlFor="state" className="block text-sm font-semibold text-gray-700 mb-2">
+                      <label htmlFor="state" className="block text-sm font-semibold text-gray-300 mb-2">
                         State *
                       </label>
                       <input
@@ -247,13 +248,13 @@ export default function CheckoutPage() {
                         value={formData.state}
                         onChange={handleInputChange}
                         required
-                        className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                        className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                         placeholder="NY"
                       />
                     </div>
                     
                     <div>
-                      <label htmlFor="zipCode" className="block text-sm font-semibold text-gray-700 mb-2">
+                      <label htmlFor="zipCode" className="block text-sm font-semibold text-gray-300 mb-2">
                         ZIP Code *
                       </label>
                       <input
@@ -263,14 +264,14 @@ export default function CheckoutPage() {
                         value={formData.zipCode}
                         onChange={handleInputChange}
                         required
-                        className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                        className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300 placeholder-gray-400"
                         placeholder="10001"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="country" className="block text-sm font-semibold text-gray-700 mb-2">
+                    <label htmlFor="country" className="block text-sm font-semibold text-gray-300 mb-2">
                       Country *
                     </label>
                     <select
@@ -279,7 +280,7 @@ export default function CheckoutPage() {
                       value={formData.country}
                       onChange={handleInputChange}
                       required
-                      className="w-full text-gray-700 px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-300"
+                      className="w-full text-white bg-gray-800 px-4 py-3 border-2 border-gray-600 rounded-xl focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-all duration-300"
                     >
                       <option value="United States">United States</option>
                       <option value="Canada">Canada</option>
@@ -297,19 +298,19 @@ export default function CheckoutPage() {
 
           {/* Order Summary */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 sticky top-8">
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl shadow-xl border border-gray-700 p-8 sticky top-8">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-                  <ShoppingBag className="h-5 w-5 text-purple-600" />
+                <div className="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                  <ShoppingBag className="h-5 w-5 text-yellow-200" />
                 </div>
-                <h2 className="text-xl font-bold text-gray-900">Order Summary</h2>
+                <h2 className="text-xl font-bold text-yellow-200">Order Summary</h2>
               </div>
               
                              {/* Items */}
                <div className="space-y-4 mb-6">
                  {items.map((item) => (
-                   <div key={`${item.id}-${item.size}`} className="flex gap-4 p-4 bg-gray-50 rounded-xl">
-                     <div className="w-16 h-16 bg-gray-200 rounded-lg flex-shrink-0 overflow-hidden">
+                   <div key={`${item.id}-${item.size}`} className="flex gap-4 p-4 bg-gray-800 rounded-xl border border-gray-700">
+                     <div className="w-16 h-16 bg-gray-700 rounded-lg flex-shrink-0 overflow-hidden">
                        <YupooImage
                          src={item.product.images[0]}
                          alt={item.product.title}
@@ -317,31 +318,31 @@ export default function CheckoutPage() {
                        />
                      </div>
                      <div className="flex-1 min-w-0">
-                       <p className="font-semibold text-gray-900 text-sm truncate">{item.product.title}</p>
-                       <p className="text-xs text-gray-600 mt-1">Size: {item.size} | Qty: {item.quantity}</p>
-                       <p className="font-bold text-gray-900 mt-2">{formatPrice(getDisplayPrice(item.product) * item.quantity)}</p>
+                       <p className="font-semibold text-white text-sm truncate">{item.product.title}</p>
+                       <p className="text-xs text-gray-300 mt-1">Size: {item.size} | Qty: {item.quantity}</p>
+                       <p className="font-bold text-yellow-200 mt-2">{formatPrice(getDisplayPrice(item.product) * item.quantity)}</p>
                      </div>
                    </div>
                  ))}
                </div>
 
               {/* Totals */}
-              <div className="border-t border-gray-200 pt-6 space-y-3">
+              <div className="border-t border-gray-700 pt-6 space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Subtotal</span>
-                  <span className="font-semibold text-gray-900">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
+                  <span className="text-gray-300">Subtotal</span>
+                  <span className="font-semibold text-yellow-200">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600 flex items-center gap-2">
+                  <span className="text-gray-300 flex items-center gap-2">
                     <Truck className="h-4 w-4 text-green-600" />
                     Shipping
                   </span>
                   <span className="font-semibold text-green-600">FREE</span>
                 </div>
-                <div className="border-t border-gray-200 pt-3">
+                <div className="border-t border-gray-700 pt-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-bold text-gray-900">Total</span>
-                    <span className="text-xl font-bold text-gray-900">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
+                    <span className="text-lg font-bold text-yellow-200">Total</span>
+                    <span className="text-xl font-bold text-yellow-200">{formatPrice(items.reduce((sum, item) => sum + getDisplayPrice(item.product) * item.quantity, 0))}</span>
                   </div>
                 </div>
               </div>
@@ -350,11 +351,11 @@ export default function CheckoutPage() {
               <button
                 onClick={handleSubmit}
                 disabled={isProcessing}
-                className="w-full bg-gradient-to-r from-gray-800 to-gray-900 text-white py-4 px-6 rounded-2xl font-bold hover:from-gray-900 hover:to-black transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mt-6 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-gradient-to-r from-yellow-200 to-yellow-100 text-black py-4 px-6 rounded-2xl font-bold hover:from-yellow-200 hover:to-yellow-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mt-6 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isProcessing ? (
                   <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                    <div aria-hidden className="animate-spin rounded-full h-5 w-5 border-2 border-black border-t-transparent"></div>
                     Processing...
                   </>
                 ) : (
@@ -367,15 +368,15 @@ export default function CheckoutPage() {
 
               {/* Trust Indicators */}
               <div className="mt-6 space-y-3">
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <div className="flex items-center gap-2 text-sm text-gray-300">
                   <Lock className="h-4 w-4 text-green-600" />
                   <span>Secure checkout powered by Stripe</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <div className="flex items-center gap-2 text-sm text-gray-300">
                   <Shield className="h-4 w-4 text-blue-600" />
                   <span>100% secure payment processing</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-gray-600">
+                <div className="flex items-center gap-2 text-sm text-gray-300">
                   <RefreshCw className="h-4 w-4 text-purple-600" />
                   <span>30-day return policy</span>
                 </div>

@@ -18,7 +18,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100 sticky top-0 z-50">
+    <header className="bg-black/95 backdrop-blur-md shadow-lg border-b border-yellow-500/20 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 relative">
           {/* Logo */}
@@ -39,7 +39,7 @@ export default function Header() {
                 
                 {/* Text with enhanced styling */}
                 <div className="flex-shrink-0">
-                  <h1 className="text-xl font-bold bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 bg-clip-text text-transparent group-hover:from-gray-800 group-hover:via-gray-900 group-hover:to-black transition-all duration-300 tracking-wide">
+                  <h1 className="text-xl font-bold bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-100 bg-clip-text text-transparent group-hover:from-yellow-200 group-hover:via-yellow-300 group-hover:to-yellow-400 transition-all duration-300 tracking-wide">
                     Soccer Vault
                   </h1>
                 </div>
@@ -53,10 +53,10 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-gray-900 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-300 hover:bg-gray-50 relative group"
+                className="text-yellow-200 hover:text-yellow-100 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-300 hover:bg-yellow-500/5 relative group"
               >
                 {item.name}
-                <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-gradient-to-r from-gray-700 to-gray-900 group-hover:w-full group-hover:left-0 transition-all duration-300"></span>
+                <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-gradient-to-r from-yellow-300 to-yellow-500 group-hover:w-full group-hover:left-0 transition-all duration-300"></span>
               </Link>
             ))}
           </nav>
@@ -64,23 +64,26 @@ export default function Header() {
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
             {/* Search Button */}
-            <button className="hidden md:flex p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-all duration-300">
+            <Link
+              href="/products?focus=1"
+              className="hidden md:flex p-2 text-yellow-100 hover:text-yellow-200 hover:bg-yellow-500/5 rounded-lg transition-all duration-300"
+            >
               <Search className="h-5 w-5" />
-            </button>
+            </Link>
 
             {/* User Account */}
-            <button className="hidden md:flex p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-all duration-300">
+            <button className="hidden md:flex p-2 text-yellow-100 hover:text-yellow-200 hover:bg-yellow-500/5 rounded-lg transition-all duration-300">
               <User className="h-5 w-5" />
             </button>
 
             {/* Cart */}
             <Link
               href="/cart"
-              className="relative p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-all duration-300 group"
+              className="relative p-2 text-yellow-100 hover:text-yellow-200 hover:bg-yellow-500/5 rounded-lg transition-all duration-300 group"
             >
               <ShoppingCart className="h-6 w-6 group-hover:scale-110 transition-transform duration-300" />
               {getTotalItems() > 0 && (
-                <span className="absolute -top-1 -right-1 bg-gradient-to-r from-gray-700 to-gray-900 text-white text-xs rounded-full h-6 w-6 flex items-center justify-center font-bold shadow-lg animate-pulse">
+                <span className="absolute -top-1 -right-1 bg-gradient-to-r from-yellow-600 to-yellow-700 text-white text-xs rounded-full h-6 w-6 flex items-center justify-center font-bold shadow-lg animate-pulse">
                   {getTotalItems()}
                 </span>
               )}
@@ -88,7 +91,7 @@ export default function Header() {
 
             {/* Mobile menu button */}
             <button
-              className="md:hidden p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-lg transition-all duration-300"
+              className="md:hidden p-2 text-yellow-300 hover:text-yellow-200 hover:bg-yellow-500/5 rounded-lg transition-all duration-300"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
@@ -102,13 +105,13 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-100 bg-white/95 backdrop-blur-md">
+          <div className="md:hidden border-t border-yellow-500/20 bg-black/95 backdrop-blur-md">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-gray-900 hover:bg-gray-50 block px-3 py-3 text-base font-semibold rounded-lg transition-all duration-300"
+                  className="text-yellow-300 hover:text-yellow-200 hover:bg-yellow-500/5 block px-3 py-3 text-base font-semibold rounded-lg transition-all duration-300"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}

@@ -38,13 +38,13 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
           <>
             <button
               onClick={prevImage}
-              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-md transition-colors"
+              className="absolute left-2 top-1/2 -translate-y-1/2 bg-yellow-200 hover:bg-yellow-100 p-2 rounded-full shadow-md transition-colors"
             >
               <ChevronLeft className="h-5 text-gray-700 w-5" />
             </button>
             <button
               onClick={nextImage}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-md transition-colors"
+              className="absolute right-2 top-1/2 -translate-y-1/2 bg-yellow-200 hover:bg-yellow-100 p-2 rounded-full shadow-md transition-colors"
             >
               <ChevronRight className="h-5 text-gray-700 w-5" />
             </button>

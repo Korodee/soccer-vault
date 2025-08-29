@@ -31,9 +31,9 @@ export default function ProductCard({ product }: ProductCardProps) {
   };
 
   return (
-    <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2">
-      {/* Image Container */}
-      <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
+    <div className="group relative bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 border border-yellow-200/30">
+    
+      <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-gray-800 to-gray-700">
         <Link href={`/products/${product.id}`}>
           <YupooImage
             src={product.images[0]}
@@ -47,17 +47,17 @@ export default function ProductCard({ product }: ProductCardProps) {
         {/* Badges */}
         <div className="absolute top-4 left-4 flex flex-col gap-2">
           {product.isNew && (
-            <span className="bg-gradient-to-r from-gray-700 to-gray-900 text-white text-xs px-3 py-1 rounded-full font-bold shadow-lg">
+            <span className="bg-gradient-to-r from-yellow-200 to-yellow-300 text-black text-xs px-3 py-1 rounded-full font-bold shadow-lg">
               NEW
             </span>
           )}
           {product.isOnSale && product.originalPrice && (
-            <span className="bg-gradient-to-r from-gray-600 to-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold shadow-lg">
+            <span className="bg-gradient-to-r from-yellow-150 to-yellow-200 text-black text-xs px-3 py-1 rounded-full font-bold shadow-lg">
               -{calculateDiscount(product.originalPrice, product.price)}%
             </span>
           )}
           {!product.inStock && (
-            <span className="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold shadow-lg">
+            <span className="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full font-bold shadow-lg">
               OUT OF STOCK
             </span>
           )}
@@ -67,27 +67,27 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Content */}
       <div className="p-6">
         {/* Category */}
-        <p className="text-sm text-gray-500 mb-2 font-medium uppercase tracking-wide">
+        <p className="text-sm text-yellow-150 mb-2 font-medium uppercase tracking-wide">
           {product.category}
         </p>
         
         {/* Title */}
         <Link href={`/products/${product.id}`}>
-          <h3 className="text-base font-bold text-gray-900 mb-2 hover:text-gray-700 transition-colors line-clamp-2 leading-tight">
+          <h3 className="text-base font-bold text-white mb-2 hover:text-yellow-100 transition-colors line-clamp-2 leading-tight">
             {product.title}
           </h3>
         </Link>
 
         {/* Brand */}
-        <p className="text-xs text-gray-600 mb-3 font-medium">{product.brand}</p>
+        <p className="text-xs text-gray-400 mb-3 font-medium">{product.brand}</p>
 
         {/* Price */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-lg font-bold text-gray-900">
+          <span className="text-lg font-bold text-yellow-150">
             {formatPrice(getDisplayPrice(product))}
           </span>
           {product.originalPrice && (
-            <span className="text-sm text-gray-400 line-through font-medium">
+            <span className="text-sm text-gray-500 line-through font-medium">
               {formatPrice(product.originalPrice)}
             </span>
           )}
@@ -97,11 +97,11 @@ export default function ProductCard({ product }: ProductCardProps) {
         <button
           onClick={handleViewDetails}
           disabled={!product.inStock || isNavigating}
-                      className={`
+          className={`
             w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105
             ${product.inStock && !isNavigating
-              ? 'bg-gradient-to-r from-gray-700 to-gray-900 text-white hover:from-gray-800 hover:to-black shadow-lg hover:shadow-xl'
-              : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+              ? 'bg-gradient-to-r from-yellow-200 to-yellow-300 text-black hover:from-yellow-150 hover:to-yellow-200 shadow-lg hover:shadow-xl'
+              : 'bg-gray-700 text-gray-300 cursor-not-allowed'
             }
           `}
         >

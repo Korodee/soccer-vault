@@ -57,28 +57,28 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Header */}
-      <div className="bg-white border-b border-gray-100 sticky top-0 z-10">
+      <div className="bg-gradient-to-br from-gray-900 to-black border-b border-gray-700 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <Link
               href="/products"
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+              className="flex items-center gap-2 text-gray-300 hover:text-yellow-200 transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
               <span className="font-medium">Back to Products</span>
             </Link>
             <div className="flex items-center gap-4">
-              <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors">
+              <button className="p-2 text-gray-400 hover:text-yellow-200 transition-colors">
                 <Share2 className="h-5 w-5" />
               </button>
               <button 
                 onClick={() => setIsWishlisted(!isWishlisted)}
                 className={`p-2 rounded-full transition-colors ${
                   isWishlisted 
-                    ? 'text-red-500 bg-red-50' 
-                    : 'text-gray-400 hover:text-gray-600'
+                    ? 'text-red-400 bg-red-500/20' 
+                    : 'text-gray-400 hover:text-yellow-200'
                 }`}
               >
                 <Heart className={`h-5 w-5 ${isWishlisted ? 'fill-current' : ''}`} />
@@ -118,14 +118,14 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
 
             {/* Title */}
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 leading-tight mb-3">
+              <h1 className="text-2xl font-bold text-yellow-200 leading-tight mb-3">
                 {product.title}
               </h1>
-              <div className="flex items-center gap-4 text-xs text-gray-600">
-                <span className="bg-gray-100 px-2 py-1 rounded-full font-medium">
+              <div className="flex items-center gap-4 text-xs text-gray-400">
+                <span className="bg-gray-800 px-2 py-1 rounded-full font-medium text-gray-300">
                   {product.brand}
                 </span>
-                <span className="bg-gray-100 px-2 py-1 rounded-full font-medium">
+                <span className="bg-gray-800 px-2 py-1 rounded-full font-medium text-gray-300">
                   {product.category}
                 </span>
               </div>
@@ -138,54 +138,54 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <span className="text-sm text-gray-600 font-medium">4.8/5</span>
-              <span className="text-sm text-gray-500">(127 reviews)</span>
+              <span className="text-sm text-gray-300 font-medium">4.8/5</span>
+              <span className="text-sm text-gray-400">(127 reviews)</span>
             </div>
 
             {/* Price */}
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-4 rounded-2xl">
+            <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-4 rounded-2xl border border-gray-700">
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold text-gray-900">
+                <span className="text-2xl font-bold text-yellow-200">
                   {formatPrice(getDisplayPrice(product))}
                 </span>
                 {product.originalPrice && (
-                  <span className="text-lg text-gray-500 line-through">
+                  <span className="text-lg text-gray-400 line-through">
                     {formatPrice(product.originalPrice)}
                   </span>
                 )}
               </div>
               {product.originalPrice && (
-                <p className="text-xs text-green-600 font-medium mt-2">
+                <p className="text-xs text-green-400 font-medium mt-2">
                   Save {formatPrice(product.originalPrice - product.price)} on this item
                 </p>
               )}
             </div>
 
             {/* Description */}
-            <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="text-base font-bold text-gray-900 mb-2">Description</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">{product.description}</p>
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-2xl shadow-lg border border-gray-700">
+              <h3 className="text-base font-bold text-yellow-200 mb-2">Description</h3>
+              <p className="text-sm text-gray-300 leading-relaxed">{product.description}</p>
             </div>
 
             {/* Product Details */}
-            <div className="bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="text-base font-bold text-gray-900 mb-3">Product Details</h3>
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-2xl shadow-lg border border-gray-700">
+              <h3 className="text-base font-bold text-yellow-200 mb-3">Product Details</h3>
               <div className="grid grid-cols-1 gap-3">
                 {product.season && (
-                  <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                    <span className="font-medium text-gray-700">Season</span>
-                    <span className="text-gray-600">{product.season}</span>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-700">
+                    <span className="font-medium text-gray-300">Season</span>
+                    <span className="text-gray-400">{product.season}</span>
                   </div>
                 )}
                 {product.material && (
-                  <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                    <span className="font-medium text-gray-700">Material</span>
-                    <span className="text-gray-600">{product.material}</span>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-700">
+                    <span className="font-medium text-gray-300">Material</span>
+                    <span className="text-gray-400">{product.material}</span>
                   </div>
                 )}
                 <div className="flex justify-between items-center py-2">
-                  <span className="font-medium text-gray-700">Availability</span>
-                  <span className={`font-medium ${product.inStock ? 'text-green-600' : 'text-red-600'}`}>
+                  <span className="font-medium text-gray-300">Availability</span>
+                  <span className={`font-medium ${product.inStock ? 'text-green-400' : 'text-red-400'}`}>
                     {product.inStock ? 'In Stock' : 'Out of Stock'}
                   </span>
                 </div>
@@ -195,8 +195,8 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
             {/* Size and Quantity Row */}
             <div className="grid grid-cols-10 gap-4">
               {/* Size Selection */}
-              <div className="col-span-7 sm:col-span-7 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="text-base font-bold text-gray-900 mb-3">Select Size</h3>
+              <div className="col-span-7 sm:col-span-7 bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-2xl shadow-lg border border-gray-700">
+                <h3 className="text-base font-bold text-yellow-200 mb-3">Select Size</h3>
                 <div className="grid grid-cols-5 gap-2">
                   {product.sizes.map((size) => (
                     <button
@@ -204,8 +204,8 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
                       onClick={() => setSelectedSize(size)}
                       className={`py-2 px-2 border-2 rounded-xl text-xs font-bold transition-all duration-300 ${
                         selectedSize === size
-                          ? 'border-gray-800 bg-gray-800 text-white shadow-lg'
-                          : 'border-gray-200 hover:border-gray-400 hover:bg-gray-50 text-gray-700 hover:text-gray-900'
+                          ? 'border-yellow-500 bg-yellow-500 text-black shadow-lg'
+                          : 'border-gray-600 hover:border-yellow-500 hover:bg-gray-700 text-gray-300 hover:text-yellow-200'
                       }`}
                     >
                       {size}
@@ -215,22 +215,22 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
               </div>
 
               {/* Quantity */}
-              <div className="col-span-5 sm:col-span-3 bg-white p-4 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="text-base font-bold text-gray-900 mb-3">Quantity</h3>
+              <div className="col-span-5 sm:col-span-3 bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-2xl shadow-lg border border-gray-700">
+                <h3 className="text-base font-bold text-yellow-200 mb-3">Quantity</h3>
                 <div className="flex items-center gap-2">
-                  <div className="flex items-center bg-gray-100 rounded-2xl p-1">
+                  <div className="flex items-center bg-gray-700 rounded-2xl p-1">
                     <button
                       onClick={decreaseQuantity}
-                      className="p-2 hover:bg-white rounded-xl transition-all duration-300 text-gray-700 hover:text-gray-900"
+                      className="p-2 hover:bg-gray-600 rounded-xl transition-all duration-300 text-gray-300 hover:text-yellow-200"
                     >
                       <Minus className="h-4 w-4" />
                     </button>
-                    <span className="px-4 py-2 text-base font-bold min-w-[3rem] text-center bg-white rounded-xl shadow-sm text-gray-900 border border-gray-200">
+                    <span className="px-4 py-2 text-base font-bold min-w-[3rem] text-center bg-gray-800 rounded-xl shadow-sm text-yellow-200 border border-gray-600">
                       {quantity}
                     </span>
                     <button
                       onClick={increaseQuantity}
-                      className="p-2 hover:bg-white rounded-xl transition-all duration-300 text-gray-700 hover:text-gray-900"
+                      className="p-2 hover:bg-gray-600 rounded-xl transition-all duration-300 text-gray-300 hover:text-yellow-200"
                     >
                       <Plus className="h-4 w-4" />
                     </button>
@@ -246,8 +246,8 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
               className={`
                 w-full flex items-center justify-center gap-2 py-4 px-6 rounded-2xl font-bold text-base transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl
                 ${product.inStock && !isAddingToCart
-                  ? 'bg-gradient-to-r from-gray-800 to-gray-900 text-white hover:from-gray-900 hover:to-black'
-                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  ? 'bg-gradient-to-r from-yellow-200 to-yellow-100 text-black hover:from-yellow-200 hover:to-yellow-100'
+                  : 'bg-gray-700 text-gray-400 cursor-not-allowed'
                 }
               `}
             >

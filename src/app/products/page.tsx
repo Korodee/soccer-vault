@@ -25,12 +25,25 @@ function ProductsContent() {
 
   // Get category from URL params
   const categoryParam = searchParams.get("category");
+  const focusParam = searchParams.get("focus");
 
   useEffect(() => {
     if (categoryParam) {
       setFilters((prev) => ({ ...prev, category: categoryParam }));
     }
   }, [categoryParam]);
+
+  useEffect(() => {
+    if (focusParam === "1") {
+      setTimeout(() => {
+        const el = document.getElementById("shop-search") as HTMLInputElement | null;
+        if (el) {
+          el.focus();
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 0);
+    }
+  }, [focusParam]);
 
   useEffect(() => {
     let filtered = products;
@@ -79,9 +92,9 @@ function ProductsContent() {
   }, [filters, searchTerm]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Page Header */}
-      <div className="relative bg-gradient-to-r from-gray-800 to-gray-900 text-white py-16 overflow-hidden">
+              <div className="relative bg-gradient-to-r from-black to-gray-900 text-white py-16 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
@@ -103,7 +116,7 @@ function ProductsContent() {
                 ? `${categoryParam} Jerseys`
                 : "Premium Soccer Jerseys"}
             </h1>
-            <p className="text-md text-gray-300 max-w-2xl mx-auto">
+            <p className="text-md text-yellow-200 max-w-2xl mx-auto">
               {categoryParam
                 ? `Discover authentic ${categoryParam} jerseys from top clubs`
                 : "Discover authentic jerseys from the world&apos;s top clubs and leagues"}
@@ -113,13 +126,14 @@ function ProductsContent() {
           {/* Search Bar */}
           <div className="max-w-2xl mx-auto">
             <div className="relative">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-yellow-200 h-5 w-5" />
               <input
+                id="shop-search"
                 type="text"
                 placeholder="Search for jerseys, brands, or categories..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl text-white placeholder-gray-300 focus:ring-2 focus:ring-white/50 focus:border-white/50 focus:outline-none transition-all duration-300"
+                className="w-full pl-12 pr-4 py-4 bg-yellow-500/10 backdrop-blur-sm border border-yellow-500/30 rounded-2xl text-yellow-100 placeholder-yellow-200 focus:ring-2 focus:ring-yellow-500/50 focus:border-yellow-500/50 focus:outline-none transition-all duration-300"
               />
             </div>
           </div>
@@ -132,7 +146,7 @@ function ProductsContent() {
           <div className="lg:hidden -mt-4 mb-4">
             <button
               onClick={() => setIsMobileFiltersOpen(true)}
-              className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow-sm hover:bg-gray-50"
+              className="inline-flex items-center gap-2 rounded-xl border border-yellow-500/30 bg-gradient-to-r from-yellow-500/10 to-yellow-600/10 backdrop-blur-sm px-4 py-3 text-sm font-medium text-yellow-200 shadow-lg hover:from-yellow-500/20 hover:to-yellow-600/20 transition-all duration-300"
             >
               <Filter className="h-4 w-4" />
               Filters
@@ -140,7 +154,7 @@ function ProductsContent() {
           </div>
           {/* Desktop Filters Sidebar */}
           <div className="hidden lg:block lg:w-80 flex-shrink-0">
-            <div className="bg-white rounded-2xl shadow-lg p-6 sticky top-24 h-[calc(100vh-120px)]">
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-3xl shadow-2xl p-6 sticky top-24 h-[calc(100vh-120px)] border border-gray-700/50">
               <ProductFilters filters={filters} onFiltersChange={setFilters} />
             </div>
           </div>
@@ -149,13 +163,13 @@ function ProductsContent() {
           <div className="flex-1">
             {filteredProducts.length === 0 ? (
               <div className="text-center py-20">
-                <div className="w-24 h-24 bg-gray-100 rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <Search className="h-12 w-12 text-gray-400" />
+                <div className="w-24 h-24 bg-yellow-900/20 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <Search className="h-12 w-12 text-yellow-400" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                <h3 className="text-lg font-bold text-yellow-300 mb-2">
                   No products found
                 </h3>
-                <p className="text-sm text-gray-600 mb-6">
+                <p className="text-sm text-yellow-200 mb-6">
                   Try adjusting your search terms or filters to find what
                   you&apos;re looking for.
                 </p>
@@ -169,7 +183,7 @@ function ProductsContent() {
                       brand: "All",
                     });
                   }}
-                  className="bg-gradient-to-r from-gray-700 to-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:from-gray-800 hover:to-black transition-all duration-300"
+                  className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-6 py-3 rounded-lg font-semibold hover:from-yellow-400 hover:to-yellow-500 transition-all duration-300"
                 >
                   Clear All Filters
                 </button>
@@ -195,15 +209,15 @@ function ProductsContent() {
       {isMobileFiltersOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div
-            className="absolute inset-0 bg-black/50"
+            className="absolute inset-0 bg-black/70 backdrop-blur-sm"
             onClick={() => setIsMobileFiltersOpen(false)}
           />
-          <div className="absolute right-0 top-0 h-full w-80 bg-white shadow-2xl p-6 overflow-y-auto">
+          <div className="absolute right-0 top-0 h-full w-80 bg-gradient-to-br from-gray-900 to-black shadow-2xl p-6 overflow-y-auto border-l border-gray-700/50">
             <div className="flex items-center justify-between mb-6">
-              <h3 className="text-lg font-bold text-gray-900">Filters</h3>
+              <h3 className="text-lg font-bold text-yellow-200">Filters</h3>
               <button
                 onClick={() => setIsMobileFiltersOpen(false)}
-                className="p-2 hover:bg-gray-100 rounded-lg"
+                className="p-2 hover:bg-yellow-500/10 rounded-lg text-yellow-200 transition-colors"
               >
                 <X className="h-6 w-6" />
               </button>
@@ -220,10 +234,10 @@ export default function ProductsPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white flex items-center justify-center">
+        <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center">
           <div className="text-center">
-            <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading products...</p>
+            <div className="w-16 h-16 border-4 border-yellow-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-yellow-200">Loading products...</p>
           </div>
         </div>
       }
